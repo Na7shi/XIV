@@ -11,5 +11,6 @@
     "daily"
   ],
   "DalamudApiLevel": 14,
-  "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/latest.zip"
+  "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/latest.zip",
+  "AssemblyVersion": "1.0.0.0"
 }
