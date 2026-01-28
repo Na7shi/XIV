@@ -1,16 +1,16 @@
-[
-  [
-    {
-      "Author": "DailyRoutinesExtend Contributors",
-      "Name": "Daily Routines Extend",
-      "Punchline": "Extended daily automation modules for FFXIV",
-      "Description": "Provides extended automation modules for daily routines in Final Fantasy XIV",
-      "InternalName": "DailyRoutinesExtend",
-      "ApplicableVersion": "any",
-      "Tags": "automation utility daily",
-      "DalamudApiLevel": 14,
-      "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/latest.zip",
-      "AssemblyVersion": "1.0.0.0"
-    }
-  ]
-]
+[{
+  "Author": "DailyRoutinesExtend Contributors",
+  "Name": "Daily Routines Extend",
+  "Punchline": "Extended daily automation modules for FFXIV",
+  "Description": "Provides extended automation modules for daily routines in Final Fantasy XIV",
+  "InternalName": "DailyRoutinesExtend",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "automation",
+    "utility",
+    "daily"
+  ],
+  "DalamudApiLevel": 14,
+  "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/latest.zip",
+  "AssemblyVersion": "1.0.0.0"
+}]
