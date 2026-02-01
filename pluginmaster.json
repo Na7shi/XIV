@@ -15,7 +15,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "AssemblyVersion": "1.0.0.10",
-    "LastUpdate": 1769977341
+    "LastUpdate": 1769978338
   },
   {
     "Author": "ExtendDebug Contributors",
@@ -33,6 +33,19 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "AssemblyVersion": "1.0.0.0",
-    "LastUpdate": 1769977348
+    "LastUpdate": 1769978344
+  },
+  {
+    "Author": "Na7shi",
+    "Name": "AutoDutyRoulette",
+    "InternalName": "AutoDutyRoulette",
+    "Description": "Automatically queue for roulettes and start AutoDuty when inside a duty. Supports party size checks.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 14,
+    "Punchline": "Auto queue and AutoDuty starter",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
+    "AssemblyVersion": "1.0.0.1",
+    "LastUpdate": 1769978348
   }
 ]
