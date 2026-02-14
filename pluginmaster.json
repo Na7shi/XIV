@@ -1,6 +1,6 @@
 [
   {
-    "Author": "DailyRoutinesExtend Contributors",
+    "Author": "Author",
     "Name": "Daily Routines Extend",
     "Punchline": "Extended daily automation modules for FFXIV",
     "Description": "Provides extended automation modules for daily routines in Final Fantasy XIV",
@@ -14,11 +14,11 @@
     "DalamudApiLevel": 14,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
-    "AssemblyVersion": "1.0.0.10",
-    "LastUpdate": 1769978338
+    "AssemblyVersion": "1.0.0.11",
+    "LastUpdate": 1771085269
   },
   {
-    "Author": "ExtendDebug Contributors",
+    "Author": "Author",
     "Name": "Extend Debug",
     "Punchline": "Developer debug tool for FFXIV",
     "Description": "Developer-oriented debug tool. ID lookup, object/addon/agent inspector, data logger, external reference (periodic export, HTTP API). Aims to cover HaselDebug-style features.",
@@ -32,11 +32,11 @@
     "DalamudApiLevel": 14,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
-    "AssemblyVersion": "1.0.0.0",
-    "LastUpdate": 1769978344
+    "AssemblyVersion": "1.0.0.1",
+    "LastUpdate": 1771085276
   },
   {
-    "Author": "Na7shi",
+    "Author": "Author",
     "Name": "AutoDutyRoulette",
     "InternalName": "AutoDutyRoulette",
     "Description": "Automatically queue for roulettes and start AutoDuty when inside a duty. Supports party size checks.",
@@ -45,7 +45,20 @@
     "Punchline": "Auto queue and AutoDuty starter",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
-    "AssemblyVersion": "1.0.0.1",
-    "LastUpdate": 1769978348
+    "AssemblyVersion": "1.0.0.2",
+    "LastUpdate": 1771085281
+  },
+  {
+    "Author": "Author",
+    "Name": "Replay Converter",
+    "InternalName": "ReplayConverter",
+    "Description": "FFXIV Replay file converter plugin.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 14,
+    "Punchline": "Replay file converter",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
+    "AssemblyVersion": "1.0.0.0",
+    "LastUpdate": 1771085285
   }
 ]
