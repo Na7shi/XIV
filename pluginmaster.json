@@ -15,7 +15,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "AssemblyVersion": "1.0.0.15",
-    "LastUpdate": 1772540214
+    "LastUpdate": 1774287042
   },
   {
     "Author": "Author",
@@ -33,7 +33,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1772540222
+    "LastUpdate": 1774287048
   },
   {
     "Author": "Author",
@@ -46,7 +46,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1772540227
+    "LastUpdate": 1774287052
   },
   {
     "Author": "Author",
@@ -59,6 +59,28 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "AssemblyVersion": "1.0.0.0",
-    "LastUpdate": 1772540231
+    "LastUpdate": 1774287056
+  },
+  {
+    "Author": "Aireil extended by Author",
+    "Name": "LogsViewerExtend",
+    "InternalName": "LogsViewerExtend",
+    "Description": "View FF Logs ranking percentiles in-game. Add a context menu to open someone's logs. Layout, style, stats, default metric, and more are all customizable in the settings.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 14,
+    "Punchline": "View FF Logs ranking percentiles in-game.",
+    "RepoUrl": "https://github.com/Aireil/FFLogsViewer",
+    "IconUrl": "https://github.com/Aireil/FFLogsViewer/raw/master/res/icon.png",
+    "ImageUrls": [
+      "https://github.com/Aireil/FFLogsViewer/raw/master/res/image1.png",
+      "https://github.com/Aireil/FFLogsViewer/raw/master/res/image2.png"
+    ],
+    "Tags": [
+      "FFLogs"
+    ],
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
+    "AssemblyVersion": "2.4.2.4",
+    "LastUpdate": 1774287063
   }
 ]
