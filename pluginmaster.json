@@ -15,7 +15,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "AssemblyVersion": "1.0.0.15",
-    "LastUpdate": 1774903232
+    "LastUpdate": 1775744081
   },
   {
     "Author": "Author",
@@ -33,7 +33,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1774903238
+    "LastUpdate": 1775744087
   },
   {
     "Author": "Author",
@@ -46,7 +46,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1774903243
+    "LastUpdate": 1775744091
   },
   {
     "Author": "Author",
@@ -59,7 +59,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "AssemblyVersion": "1.0.0.0",
-    "LastUpdate": 1774903247
+    "LastUpdate": 1775744096
   },
   {
     "Author": "Aireil extended by Author",
@@ -80,7 +80,7 @@
     ],
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
-    "AssemblyVersion": "2.4.2.5",
-    "LastUpdate": 1774903253
+    "AssemblyVersion": "2.4.2.6",
+    "LastUpdate": 1775744103
   }
 ]
