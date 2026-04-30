@@ -14,8 +14,8 @@
     "DalamudApiLevel": 15,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
-    "AssemblyVersion": "1.0.0.16",
-    "LastUpdate": 1777558550
+    "AssemblyVersion": "1.0.0.17",
+    "LastUpdate": 1777559156
   },
   {
     "Author": "Author",
@@ -32,8 +32,8 @@
     "DalamudApiLevel": 15,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
-    "AssemblyVersion": "1.0.0.3",
-    "LastUpdate": 1777558556
+    "AssemblyVersion": "1.0.0.4",
+    "LastUpdate": 1777559167
   },
   {
     "Author": "Author",
@@ -45,8 +45,8 @@
     "Punchline": "Auto queue and AutoDuty starter",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
-    "AssemblyVersion": "1.0.0.3",
-    "LastUpdate": 1777558561
+    "AssemblyVersion": "1.0.0.4",
+    "LastUpdate": 1777559173
   },
   {
     "Author": "Author",
@@ -58,8 +58,8 @@
     "Punchline": "Replay file converter",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
-    "AssemblyVersion": "1.0.0.1",
-    "LastUpdate": 1777558565
+    "AssemblyVersion": "1.0.0.2",
+    "LastUpdate": 1777559178
   },
   {
     "Author": "Aireil extended by Author",
@@ -80,7 +80,7 @@
     ],
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
-    "AssemblyVersion": "2.4.2.7",
-    "LastUpdate": 1777558573
+    "AssemblyVersion": "2.4.2.8",
+    "LastUpdate": 1777559187
   }
 ]
