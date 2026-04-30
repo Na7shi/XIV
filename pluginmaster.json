@@ -11,11 +11,11 @@
       "utility",
       "daily"
     ],
-    "DalamudApiLevel": 14,
+    "DalamudApiLevel": 15,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
-    "AssemblyVersion": "1.0.0.15",
-    "LastUpdate": 1775744081
+    "AssemblyVersion": "1.0.0.16",
+    "LastUpdate": 1777557932
   },
   {
     "Author": "Author",
@@ -29,11 +29,11 @@
       "development",
       "inspector"
     ],
-    "DalamudApiLevel": 14,
+    "DalamudApiLevel": 15,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
-    "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1775744087
+    "AssemblyVersion": "1.0.0.3",
+    "LastUpdate": 1777557940
   },
   {
     "Author": "Author",
@@ -41,12 +41,12 @@
     "InternalName": "AutoDutyRoulette",
     "Description": "Automatically queue for roulettes and start AutoDuty when inside a duty. Supports party size checks.",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 14,
+    "DalamudApiLevel": 15,
     "Punchline": "Auto queue and AutoDuty starter",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
-    "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1775744091
+    "AssemblyVersion": "1.0.0.3",
+    "LastUpdate": 1777557944
   },
   {
     "Author": "Author",
@@ -54,12 +54,12 @@
     "InternalName": "ReplayConverter",
     "Description": "FFXIV Replay file converter plugin.",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 14,
+    "DalamudApiLevel": 15,
     "Punchline": "Replay file converter",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
-    "AssemblyVersion": "1.0.0.0",
-    "LastUpdate": 1775744096
+    "AssemblyVersion": "1.0.0.1",
+    "LastUpdate": 1777557948
   },
   {
     "Author": "Aireil extended by Author",
@@ -67,7 +67,7 @@
     "InternalName": "LogsViewerExtend",
     "Description": "View FF Logs ranking percentiles in-game. Add a context menu to open someone's logs. Layout, style, stats, default metric, and more are all customizable in the settings.",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 14,
+    "DalamudApiLevel": 15,
     "Punchline": "View FF Logs ranking percentiles in-game.",
     "RepoUrl": "https://github.com/Aireil/FFLogsViewer",
     "IconUrl": "https://github.com/Aireil/FFLogsViewer/raw/master/res/icon.png",
@@ -80,7 +80,7 @@
     ],
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
-    "AssemblyVersion": "2.4.2.6",
-    "LastUpdate": 1775744103
+    "AssemblyVersion": "2.4.2.7",
+    "LastUpdate": 1777557957
   }
 ]
