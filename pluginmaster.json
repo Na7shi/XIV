@@ -15,7 +15,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "AssemblyVersion": "1.0.0.17",
-    "LastUpdate": 1777560054
+    "LastUpdate": 1777662475
   },
   {
     "Author": "Author",
@@ -33,7 +33,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1777560062
+    "LastUpdate": 1777662483
   },
   {
     "Author": "Author",
@@ -46,7 +46,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1777560068
+    "LastUpdate": 1777662489
   },
   {
     "Author": "Author",
@@ -59,7 +59,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1777560073
+    "LastUpdate": 1777662493
   },
   {
     "Author": "Aireil extended by Author",
@@ -81,6 +81,24 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "AssemblyVersion": "2.4.2.8",
-    "LastUpdate": 1777560081
+    "LastUpdate": 1777662501
+  },
+  {
+    "Author": "Marulu, StreetRat",
+    "Name": "MaskedCarnivale",
+    "InternalName": "MaskedCarnivale",
+    "Punchline": "Display the game in a separate window",
+    "Description": "Allows you to record, or stream your game without displaying Dalamud plugins.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/ProjectMimer/MaskedCarnivale",
+    "Tags": [
+      "utility"
+    ],
+    "AcceptsFeedback": false,
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
+    "AssemblyVersion": "1.0.0.0",
+    "LastUpdate": 1777662507
   }
 ]
