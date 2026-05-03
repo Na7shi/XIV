@@ -15,7 +15,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "AssemblyVersion": "1.0.0.17",
-    "LastUpdate": 1777665254
+    "LastUpdate": 1777782760
   },
   {
     "Author": "Author",
@@ -33,7 +33,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1777665262
+    "LastUpdate": 1777782771
   },
   {
     "Author": "Author",
@@ -46,7 +46,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1777665268
+    "LastUpdate": 1777782776
   },
   {
     "Author": "Author",
@@ -59,7 +59,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1777665273
+    "LastUpdate": 1777782780
   },
   {
     "Author": "Aireil extended by Author",
@@ -81,7 +81,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "AssemblyVersion": "2.4.2.8",
-    "LastUpdate": 1777665283
+    "LastUpdate": 1777782787
   },
   {
     "Author": "Marulu, StreetRat",
@@ -98,7 +98,7 @@
     "DalamudApiLevel": 15,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
-    "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1777665325
+    "AssemblyVersion": "1.0.0.3",
+    "LastUpdate": 1777782811
   }
 ]
