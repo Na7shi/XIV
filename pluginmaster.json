@@ -1,127 +1,127 @@
 [
-  {
-    "Author": "Author",
-    "Name": "Daily Routines Extend",
-    "Punchline": "Extended daily automation modules for FFXIV",
-    "Description": "Provides extended automation modules for daily routines in Final Fantasy XIV",
-    "InternalName": "DailyRoutinesExtend",
-    "ApplicableVersion": "any",
-    "Tags": [
-      "automation",
-      "utility",
-      "daily"
-    ],
-    "DalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
-    "AssemblyVersion": "1.0.0.20",
-    "LastUpdate": 1785450312
-  },
-  {
-    "Author": "Author",
-    "Name": "Extend Debug",
-    "Punchline": "Developer debug tool for FFXIV",
-    "Description": "Developer-oriented debug tool. ID lookup, object/addon/agent inspector, data logger, external reference (periodic export, HTTP API). Aims to cover HaselDebug-style features.",
-    "InternalName": "ExtendDebug",
-    "ApplicableVersion": "any",
-    "Tags": [
-      "debug",
-      "development",
-      "inspector"
-    ],
-    "DalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
-    "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1785450323
-  },
-  {
-    "Author": "Author",
-    "Name": "AutoDutyRoulette",
-    "InternalName": "AutoDutyRoulette",
-    "Description": "Automatically queue for roulettes and start AutoDuty when inside a duty. Supports party size checks.",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 15,
-    "Punchline": "Auto queue and AutoDuty starter",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
-    "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1785450331
-  },
-  {
-    "Author": "Author",
-    "Name": "Replay Converter",
-    "InternalName": "ReplayConverter",
-    "Description": "FFXIV Replay file converter plugin.",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 15,
-    "Punchline": "Replay file converter",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
-    "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1785450337
-  },
-  {
-    "Author": "Aireil extended by Author",
-    "Name": "LogsViewerExtend",
-    "InternalName": "LogsViewerExtend",
-    "Description": "View FF Logs ranking percentiles in-game. Add a context menu to open someone's logs. Layout, style, stats, default metric, and more are all customizable in the settings.",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 15,
-    "Punchline": "View FF Logs ranking percentiles in-game.",
-    "RepoUrl": "https://github.com/Aireil/FFLogsViewer",
-    "IconUrl": "https://github.com/Aireil/FFLogsViewer/raw/master/res/icon.png",
-    "ImageUrls": [
-      "https://github.com/Aireil/FFLogsViewer/raw/master/res/image1.png",
-      "https://github.com/Aireil/FFLogsViewer/raw/master/res/image2.png"
-    ],
-    "Tags": [
-      "FFLogs"
-    ],
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
-    "AssemblyVersion": "2.4.2.8",
-    "LastUpdate": 1785450347
-  },
-  {
-    "Author": "Author",
-    "Name": "NyaDraw Extend",
-    "Punchline": "Draws mechanic VFX and omens in supported content",
-    "Description": "Draws mechanic VFX and omens in supported content, and lets you manage drawing modules and supported-content settings.",
-    "Tags": [
-      "vfx",
-      "omen",
-      "splatoon",
-      "standalone"
-    ],
-    "InternalName": "NyaDrawExtend",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 15,
-    "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
-    "LoadPriority": 0,
-    "SupportsProfiles": true,
-    "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/NyaDrawExtend/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/NyaDrawExtend/latest.zip",
-    "AssemblyVersion": "$(NyaDrawVersion)",
-    "LastUpdate": 1785450358
-  },
-  {
-    "Author": "Author",
-    "Name": "MaskedCarnivale",
-    "InternalName": "MaskedCarnivale",
-    "Punchline": "Display the game in a separate window",
-    "Description": "Allows you to record, or stream your game without displaying Dalamud plugins.",
-    "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/ProjectMimer/MaskedCarnivale",
-    "Tags": [
-      "utility"
-    ],
-    "AcceptsFeedback": false,
-    "DalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
-    "AssemblyVersion": "1.0.0.7",
-    "LastUpdate": 1785450399
-  }
+    {
+        "Author":  "Author",
+        "Name":  "Daily Routines Extend",
+        "Punchline":  "Extended daily automation modules for FFXIV",
+        "Description":  "Provides extended automation modules for daily routines in Final Fantasy XIV",
+        "InternalName":  "DailyRoutinesExtend",
+        "ApplicableVersion":  "any",
+        "Tags":  [
+                     "automation",
+                     "utility",
+                     "daily"
+                 ],
+        "DalamudApiLevel":  15,
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
+        "AssemblyVersion":  "1.0.0.20",
+        "LastUpdate":  1785450312
+    },
+    {
+        "Author":  "Author",
+        "Name":  "Extend Debug",
+        "Punchline":  "Developer debug tool for FFXIV",
+        "Description":  "Developer-oriented debug tool. ID lookup, object/addon/agent inspector, data logger, external reference (periodic export, HTTP API). Aims to cover HaselDebug-style features.",
+        "InternalName":  "ExtendDebug",
+        "ApplicableVersion":  "any",
+        "Tags":  [
+                     "debug",
+                     "development",
+                     "inspector"
+                 ],
+        "DalamudApiLevel":  15,
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
+        "AssemblyVersion":  "1.0.0.4",
+        "LastUpdate":  1785450323
+    },
+    {
+        "Author":  "Author",
+        "Name":  "AutoDutyRoulette",
+        "InternalName":  "AutoDutyRoulette",
+        "Description":  "Automatically queue for roulettes and start AutoDuty when inside a duty. Supports party size checks.",
+        "ApplicableVersion":  "any",
+        "DalamudApiLevel":  15,
+        "Punchline":  "Auto queue and AutoDuty starter",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
+        "AssemblyVersion":  "1.0.0.4",
+        "LastUpdate":  1785450331
+    },
+    {
+        "Author":  "Author",
+        "Name":  "Replay Converter",
+        "InternalName":  "ReplayConverter",
+        "Description":  "FFXIV Replay file converter plugin.",
+        "ApplicableVersion":  "any",
+        "DalamudApiLevel":  15,
+        "Punchline":  "Replay file converter",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
+        "AssemblyVersion":  "1.0.0.2",
+        "LastUpdate":  1785450337
+    },
+    {
+        "Author":  "Aireil extended by Author",
+        "Name":  "LogsViewerExtend",
+        "InternalName":  "LogsViewerExtend",
+        "Description":  "View FF Logs ranking percentiles in-game. Add a context menu to open someone\u0027s logs. Layout, style, stats, default metric, and more are all customizable in the settings.",
+        "ApplicableVersion":  "any",
+        "DalamudApiLevel":  15,
+        "Punchline":  "View FF Logs ranking percentiles in-game.",
+        "RepoUrl":  "https://github.com/Aireil/FFLogsViewer",
+        "IconUrl":  "https://github.com/Aireil/FFLogsViewer/raw/master/res/icon.png",
+        "ImageUrls":  [
+                          "https://github.com/Aireil/FFLogsViewer/raw/master/res/image1.png",
+                          "https://github.com/Aireil/FFLogsViewer/raw/master/res/image2.png"
+                      ],
+        "Tags":  [
+                     "FFLogs"
+                 ],
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
+        "AssemblyVersion":  "2.4.2.8",
+        "LastUpdate":  1785450347
+    },
+    {
+        "Author":  "Author",
+        "Name":  "NyaDraw Extend",
+        "Punchline":  "Draws mechanic VFX and omens in supported content",
+        "Description":  "Draws mechanic VFX and omens in supported content, and lets you manage drawing modules and supported-content settings.",
+        "Tags":  [
+                     "vfx",
+                     "omen",
+                     "splatoon",
+                     "standalone"
+                 ],
+        "InternalName":  "NyaDrawExtend",
+        "ApplicableVersion":  "any",
+        "DalamudApiLevel":  15,
+        "IconUrl":  "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
+        "LoadPriority":  0,
+        "SupportsProfiles":  true,
+        "AcceptsFeedback":  true,
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Na7shi/XIV/main/NyaDrawExtend/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Na7shi/XIV/main/NyaDrawExtend/latest.zip",
+        "AssemblyVersion":  "1.15.0.12",
+        "LastUpdate":  1785450358
+    },
+    {
+        "Author":  "Author",
+        "Name":  "MaskedCarnivale",
+        "InternalName":  "MaskedCarnivale",
+        "Punchline":  "Display the game in a separate window",
+        "Description":  "Allows you to record, or stream your game without displaying Dalamud plugins.",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/ProjectMimer/MaskedCarnivale",
+        "Tags":  [
+                     "utility"
+                 ],
+        "AcceptsFeedback":  false,
+        "DalamudApiLevel":  15,
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
+        "AssemblyVersion":  "1.0.0.7",
+        "LastUpdate":  1785450399
+    }
 ]
