@@ -14,8 +14,8 @@
     "DalamudApiLevel": 15,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
-    "AssemblyVersion": "1.0.0.19",
-    "LastUpdate": 1785410844
+    "AssemblyVersion": "1.0.0.20",
+    "LastUpdate": 1785450312
   },
   {
     "Author": "Author",
@@ -33,7 +33,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1785410856
+    "LastUpdate": 1785450323
   },
   {
     "Author": "Author",
@@ -46,7 +46,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
     "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1785410864
+    "LastUpdate": 1785450331
   },
   {
     "Author": "Author",
@@ -59,7 +59,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1785410871
+    "LastUpdate": 1785450337
   },
   {
     "Author": "Aireil extended by Author",
@@ -81,10 +81,10 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "AssemblyVersion": "2.4.2.8",
-    "LastUpdate": 1785410882
+    "LastUpdate": 1785450347
   },
   {
-    "Author": "Toufu",
+    "Author": "Author",
     "Name": "NyaDraw Extend",
     "Punchline": "Draws mechanic VFX and omens in supported content",
     "Description": "Draws mechanic VFX and omens in supported content, and lets you manage drawing modules and supported-content settings.",
@@ -104,7 +104,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/NyaDrawExtend/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/NyaDrawExtend/latest.zip",
     "AssemblyVersion": "$(NyaDrawVersion)",
-    "LastUpdate": 1785410890
+    "LastUpdate": 1785450358
   },
   {
     "Author": "Author",
@@ -122,6 +122,6 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
     "AssemblyVersion": "1.0.0.7",
-    "LastUpdate": 1785410929
+    "LastUpdate": 1785450399
   }
 ]
