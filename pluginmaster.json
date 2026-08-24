@@ -90,24 +90,6 @@
   },
   {
     "Author": "Author",
-    "Name": "Daily Routines Extend",
-    "Punchline": "Extended daily automation modules for FFXIV",
-    "Description": "Provides extended automation modules for daily routines in Final Fantasy XIV",
-    "InternalName": "DailyRoutinesExtend",
-    "ApplicableVersion": "any",
-    "Tags": [
-      "automation",
-      "utility",
-      "daily"
-    ],
-    "DalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
-    "AssemblyVersion": "1.0.0.21",
-    "LastUpdate": 1787228486
-  },
-  {
-    "Author": "Author",
     "Name": "MaskedCarnivale",
     "InternalName": "MaskedCarnivale",
     "Punchline": "Display the game in a separate window",
@@ -123,5 +105,23 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
     "AssemblyVersion": "1.0.0.21",
     "LastUpdate": 1787228532
+  },
+  {
+    "Author": "Author",
+    "Name": "Daily Routines Extend",
+    "Punchline": "Extended daily automation modules for FFXIV",
+    "Description": "Provides extended automation modules for daily routines in Final Fantasy XIV",
+    "InternalName": "DailyRoutinesExtend",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "automation",
+      "utility",
+      "daily"
+    ],
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
+    "AssemblyVersion": "1.0.0.22",
+    "LastUpdate": 1787589816
   }
 ]
