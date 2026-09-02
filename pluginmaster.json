@@ -12,23 +12,10 @@
       "inspector"
     ],
     "DalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ExtendDebug/latest.zip",
     "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1785451006
-  },
-  {
-    "Author": "Author",
-    "Name": "AutoDutyRoulette",
-    "InternalName": "AutoDutyRoulette",
-    "Description": "Automatically queue for roulettes and start AutoDuty when inside a duty. Supports party size checks.",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 15,
-    "Punchline": "Auto queue and AutoDuty starter",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/AutoDutyRoulette/latest.zip",
-    "AssemblyVersion": "1.0.0.4",
-    "LastUpdate": 1785451015
+    "LastUpdate": 1785451006,
+    "DownloadLinkInstall": "https://github.com/Na7shi/XIV/releases/download/latest-ExtendDebug/ExtendDebug-v1.0.0.4.zip",
+    "DownloadLinkUpdate": "https://github.com/Na7shi/XIV/releases/download/latest-ExtendDebug/ExtendDebug-v1.0.0.4.zip"
   },
   {
     "Author": "Author",
@@ -38,10 +25,10 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "Punchline": "Replay file converter",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/ReplayConverter/latest.zip",
     "AssemblyVersion": "1.0.0.2",
-    "LastUpdate": 1785451023
+    "LastUpdate": 1785451023,
+    "DownloadLinkInstall": "https://github.com/Na7shi/XIV/releases/download/latest-ReplayConverter/ReplayConverter-v1.0.0.2.zip",
+    "DownloadLinkUpdate": "https://github.com/Na7shi/XIV/releases/download/latest-ReplayConverter/ReplayConverter-v1.0.0.2.zip"
   },
   {
     "Author": "Aireil extended by Author",
@@ -60,10 +47,10 @@
     "Tags": [
       "FFLogs"
     ],
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/LogsViewerExtend/latest.zip",
     "AssemblyVersion": "2.4.2.8",
-    "LastUpdate": 1785451034
+    "LastUpdate": 1785451034,
+    "DownloadLinkInstall": "https://github.com/Na7shi/XIV/releases/download/latest-LogsViewerExtend/LogsViewerExtend-v2.4.2.8.zip",
+    "DownloadLinkUpdate": "https://github.com/Na7shi/XIV/releases/download/latest-LogsViewerExtend/LogsViewerExtend-v2.4.2.8.zip"
   },
   {
     "Author": "Author",
@@ -83,10 +70,10 @@
     "LoadPriority": 0,
     "SupportsProfiles": true,
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/NyaDrawExtend/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/NyaDrawExtend/latest.zip",
     "AssemblyVersion": "1.15.0.12",
-    "LastUpdate": 1785451046
+    "LastUpdate": 1785451046,
+    "DownloadLinkInstall": "https://github.com/Na7shi/XIV/releases/download/latest-NyaDrawExtend/NyaDrawExtend-v1.15.0.12.zip",
+    "DownloadLinkUpdate": "https://github.com/Na7shi/XIV/releases/download/latest-NyaDrawExtend/NyaDrawExtend-v1.15.0.12.zip"
   },
   {
     "Author": "Author",
@@ -101,10 +88,10 @@
     ],
     "AcceptsFeedback": false,
     "DalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/MaskedCarnivale/latest.zip",
     "AssemblyVersion": "1.0.0.21",
-    "LastUpdate": 1787228532
+    "LastUpdate": 1787228532,
+    "DownloadLinkInstall": "https://github.com/Na7shi/XIV/releases/download/latest-MaskedCarnivale/MaskedCarnivale-v1.0.0.21.zip",
+    "DownloadLinkUpdate": "https://github.com/Na7shi/XIV/releases/download/latest-MaskedCarnivale/MaskedCarnivale-v1.0.0.21.zip"
   },
   {
     "Author": "Author",
@@ -119,9 +106,9 @@
       "daily"
     ],
     "DalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Na7shi/XIV/main/DailyRoutinesExtend/latest.zip",
     "AssemblyVersion": "1.0.0.22",
-    "LastUpdate": 1787589816
+    "LastUpdate": 1787589816,
+    "DownloadLinkInstall": "https://github.com/Na7shi/XIV/releases/download/latest-DailyRoutinesExtend/DailyRoutinesExtend-v1.0.0.22.zip",
+    "DownloadLinkUpdate": "https://github.com/Na7shi/XIV/releases/download/latest-DailyRoutinesExtend/DailyRoutinesExtend-v1.0.0.22.zip"
   }
 ]
