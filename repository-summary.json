@@ -625,18 +625,18 @@
     "Punchline": "Don't fail at raid mechanics anymore",
     "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.5.6.9/latest.zip",
-    "AssemblyVersion": "7.5.6.9",
-    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.5.6.9/latest.zip",
+    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.5.6.10/latest.zip",
+    "AssemblyVersion": "7.5.6.10",
+    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.5.6.10/latest.zip",
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.11/latest.zip",
     "TestingAssemblyVersion": "7.4.5.11",
-    "Changelog": "## What's Changed\r\n* First master board WIP bosses & improvements by @Equilius in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1354\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.5.6.8...7.5.6.9",
+    "Changelog": "## What's Changed\r\n* Feat: bosses & Maturity setting by @Equilius in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1355\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.5.6.9...7.5.6.10",
     "OriginalAuthor": "The Combat Reborn Team",
     "RepositorySourceLabel": "GitHub: FFXIV-CombatReborn/CombatRebornRepo",
     "RepositoryDisplayAuthor": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
-    "RepositoryEntryKey": "d3a6999a746933cbcd3c4d791a5a2a10bec04a1f1c9a3d690d7736b1e0a4c068",
+    "RepositoryEntryKey": "67dfacdbd0182df706a03b0ef65d6c7ca5be27fd25272acdbdb6b433a2aa5955",
     "RepositoryOriginalInternalName": "BossModReborn"
   },
   {
@@ -4161,8 +4161,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "",
-    "TestingAssemblyVersion": "7.5.5.103",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.5.103/install/testing.zip",
+    "TestingAssemblyVersion": "7.5.6.6",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.6.6/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/30",
     "ImageUrls": [
@@ -4175,7 +4175,7 @@
     "RepositoryDisplayAuthor": "veyn, xan_0 [Source: Puni.sh Veyn]",
     "RepositorySource": "https://puni.sh/api/repository/veyn",
     "RepositorySourceId": "puni-veyn",
-    "RepositoryEntryKey": "bf83a6b3705bc41c1b809bc8b8b08f2ae9459ad6ca5243cd0d7614ae08e1cb39",
+    "RepositoryEntryKey": "25231c9805ebf160582415918c88e624f0945324be0eac93684a1c9689a3ebab",
     "RepositoryOriginalInternalName": "BossMod"
   },
   {
