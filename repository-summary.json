@@ -3387,8 +3387,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "",
-    "TestingAssemblyVersion": "6.0.1.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.0/install/testing.zip",
+    "TestingAssemblyVersion": "6.0.1.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.1/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/47",
     "OriginalAuthor": "Det, croizat",
@@ -3396,7 +3396,7 @@
     "RepositoryDisplayAuthor": "Det, croizat [Source: Puni.sh Ment]",
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
-    "RepositoryEntryKey": "28c8606d57a6e672c15ed7f7949de9fc04898a36cd504cefcaca95d43c150360",
+    "RepositoryEntryKey": "fe380c3a8d9eac8605ecb6d7ef031487d7632069389aa88c61d5d37edee15238",
     "RepositoryOriginalInternalName": "AutoHook"
   },
   {
@@ -3790,8 +3790,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "",
-    "TestingAssemblyVersion": "6.0.1.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.0/install/testing.zip",
+    "TestingAssemblyVersion": "6.0.1.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.1/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/47",
     "OriginalAuthor": "Det, croizat",
@@ -3799,7 +3799,7 @@
     "RepositoryDisplayAuthor": "Det, croizat [Source: Puni.sh Plugins]",
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
-    "RepositoryEntryKey": "da73fe29f76f29bf519b2a5f1a0509c36f4a4c4b5ce356192822148fa900496d",
+    "RepositoryEntryKey": "5b332553a5cd0624f084409ff44c214f081cef1ee7ebd41b9edbbbb6cad05a0a",
     "RepositoryOriginalInternalName": "AutoHook"
   },
   {
