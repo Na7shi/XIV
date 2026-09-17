@@ -625,18 +625,18 @@
     "Punchline": "Don't fail at raid mechanics anymore",
     "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.5.6.11/latest.zip",
-    "AssemblyVersion": "7.5.6.11",
-    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.5.6.11/latest.zip",
+    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.5.6.12/latest.zip",
+    "AssemblyVersion": "7.5.6.12",
+    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.5.6.12/latest.zip",
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.11/latest.zip",
     "TestingAssemblyVersion": "7.4.5.11",
-    "Changelog": "## What's Changed\r\n* Feat: improvements & bosses second master's board by @Equilius in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1356\r\n* Merge vbm by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1357\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.5.6.10...7.5.6.11",
+    "Changelog": "## What's Changed\r\n* fix latency issue in FTME1 module by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1358\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.5.6.11...7.5.6.12",
     "OriginalAuthor": "The Combat Reborn Team",
     "RepositorySourceLabel": "GitHub: FFXIV-CombatReborn/CombatRebornRepo",
     "RepositoryDisplayAuthor": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
-    "RepositoryEntryKey": "398c054010c8d8eed29424e6e0dce6d9c8d8ffe946a3e19c4b3fe0a35b2d5c58",
+    "RepositoryEntryKey": "94537ace64d35faf0266c2e1075287b3568d73f38fb8e79a106ec9011671f93c",
     "RepositoryOriginalInternalName": "BossModReborn"
   },
   {
@@ -3106,8 +3106,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "## What's Changed\r\n* (1048) Porta Decumana: Stabilizing by @erdelf in https://github.com/erdelf/AutoDuty/pull/395\r\n* AutoRetainer MultiMode Between Loops by @erdelf in https://github.com/erdelf/AutoDuty/pull/397\r\n* Gimmick Novice Entries only when lvl 49 or above by @erdelf in https://github.com/erdelf/AutoDuty/pull/398\r\n* Create Default profile if no profile exists by @erdelf in https://github.com/erdelf/AutoDuty/pull/399\r\n* Playlist saving by @erdelf in https://github.com/erdelf/AutoDuty/pull/400\r\n* Shisui in the stable leveling list by @erdelf in https://github.com/erdelf/AutoDuty/pull/401\r\n* (1036) Sastasha: Safety check for keys by @erdelf in https://github.com/erdelf/AutoDuty/pull/402\r\n* Collision Condition by @erdelf in https://github.com/erdelf/AutoDuty/pull/404\r\n* Optionally disabling party coherency by @erdelf in https://github.com/erdelf/AutoDuty/pull/406\r\n* ToDo Condition by @erdelf in https://github.com/erdelf/AutoDuty/pull/408\r\n* Revival logic adjusted by @erdelf in https://github.com/erdelf/AutoDuty/pull/410\r\n* Glamour Chests only when unlocked by @erdelf in https://github.com/erdelf/AutoDuty/pull/412\r\n* (1036) Sastasha: Safety check for interactions by @erdelf in https://github.com/erdelf/AutoDuty/pull/409\r\n* (1127) React to Attack Markers: Update Party Coherency flag by @erdelf in https://github.com/erdelf/AutoDuty/pull/407\r\n* (1142) Sirensong: Revamp boat opening by @erdelf in https://github.com/erdelf/AutoDuty/pull/405\r\n\r\n**Full Changelog**: https://github.com/erdelf/AutoDuty/compare/0.0.0.330...0.0.0.335",
-    "TestingAssemblyVersion": "0.0.0.338",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.338/install/testing.zip",
+    "TestingAssemblyVersion": "0.0.0.339",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.339/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/54",
     "ImageUrls": [
@@ -3122,7 +3122,7 @@
     "RepositoryDisplayAuthor": "erdelf, Herculezz [Source: Puni.sh Erdelf]",
     "RepositorySource": "https://puni.sh/api/repository/erdelf",
     "RepositorySourceId": "puni-erdelf",
-    "RepositoryEntryKey": "4558fb651752bedc91a64c8c9fa96fc6cd67d9db6ce65064193779e3f750c028",
+    "RepositoryEntryKey": "46fef6598025b1738e70ce117e21183583ccb533ae379ffaf1a92c585b7a7c09",
     "RepositoryOriginalInternalName": "AutoDuty"
   },
   {
