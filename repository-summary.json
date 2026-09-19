@@ -3414,8 +3414,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "- Add Clear list button to inventory management lists",
-    "TestingAssemblyVersion": "4.6.2.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.2/install/testing.zip",
+    "TestingAssemblyVersion": "4.6.2.3",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.3/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/24",
     "OriginalAuthor": "kawaii, NightmareXIV",
@@ -3423,7 +3423,7 @@
     "RepositoryDisplayAuthor": "kawaii, NightmareXIV [Source: Puni.sh Ment]",
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
-    "RepositoryEntryKey": "0041428c83b495d2f67e9e9dbd96b8a9ba63047adbd6c18f9f9dce8f6df4f4e8",
+    "RepositoryEntryKey": "9829cfd3a5dac923fab68b58792903d0d1e7d35190b7820559c8d342193e84f8",
     "RepositoryOriginalInternalName": "AutoRetainer"
   },
   {
@@ -3817,8 +3817,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "- Add Clear list button to inventory management lists",
-    "TestingAssemblyVersion": "4.6.2.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.2/install/testing.zip",
+    "TestingAssemblyVersion": "4.6.2.3",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.3/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/24",
     "OriginalAuthor": "kawaii, NightmareXIV",
@@ -3826,7 +3826,7 @@
     "RepositoryDisplayAuthor": "kawaii, NightmareXIV [Source: Puni.sh Plugins]",
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
-    "RepositoryEntryKey": "da706d352505fc79a86fcbc7c7f7ab04322fb78e29a4d4abef0c8e14eaebdb57",
+    "RepositoryEntryKey": "0a2a7e0c699ba340f3ad234a3ce0995f35dbeeba7c8455b4d01d026ecc447c0d",
     "RepositoryOriginalInternalName": "AutoRetainer"
   },
   {
