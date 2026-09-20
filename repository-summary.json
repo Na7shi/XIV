@@ -23,7 +23,8 @@
     "RepositorySource": "https://repo.adrift.jp/pluginmaster.json",
     "RepositorySourceId": "adrift",
     "RepositoryEntryKey": "f722fc2334f50e5b90996e9f66e7dc25060553ef9d63bd175cf3807e20757735",
-    "RepositoryOriginalInternalName": "ActionEffectRange"
+    "RepositoryOriginalInternalName": "ActionEffectRange",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "UnknownX [Source: Adrift]",
@@ -54,7 +55,8 @@
     "RepositorySource": "https://repo.adrift.jp/pluginmaster.json",
     "RepositorySourceId": "adrift",
     "RepositoryEntryKey": "7ed889dd7e85d191ff8a84a3cb3bf7cb9d1f6a13c432cd46c1904dcfc95af14c",
-    "RepositoryOriginalInternalName": "ARealmRecorded"
+    "RepositoryOriginalInternalName": "ARealmRecorded",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey (Puni.sh) [Source: Adrift]",
@@ -82,7 +84,8 @@
     "RepositorySource": "https://repo.adrift.jp/pluginmaster.json",
     "RepositorySourceId": "adrift",
     "RepositoryEntryKey": "102bc19b12a5e17a4e38fe8ee2bfb4053c98d277c05213390da928b8d0f533ac",
-    "RepositoryOriginalInternalName": "Artisan"
+    "RepositoryOriginalInternalName": "Artisan",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV, kawaii [Source: Adrift]",
@@ -108,7 +111,8 @@
     "RepositorySource": "https://repo.adrift.jp/pluginmaster.json",
     "RepositorySourceId": "adrift",
     "RepositoryEntryKey": "57eeeb4a61e09e9459249bae4fb599cbc05b10653c9cf8f03a0915aab41619f5",
-    "RepositoryOriginalInternalName": "AutoRetainer"
+    "RepositoryOriginalInternalName": "AutoRetainer",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "veyn [Source: Adrift]",
@@ -134,7 +138,8 @@
     "RepositorySource": "https://repo.adrift.jp/pluginmaster.json",
     "RepositorySourceId": "adrift",
     "RepositoryEntryKey": "ed6f6cdb0e7f0f2cfee54b4dcb29554a96b2b445fd2cf01bb13c9d66236709a8",
-    "RepositoryOriginalInternalName": "BossMod"
+    "RepositoryOriginalInternalName": "BossMod",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "X'pahtalo (originally goat and Franz) [Source: Adrift]",
@@ -169,7 +174,8 @@
     "RepositorySource": "https://repo.adrift.jp/pluginmaster.json",
     "RepositorySourceId": "adrift",
     "RepositoryEntryKey": "019614a363369a75fcdaee35b71a3a45f89bac55db32abcedfff800dac6f6872",
-    "RepositoryOriginalInternalName": "Dalamud.CharacterSync"
+    "RepositoryOriginalInternalName": "Dalamud.CharacterSync",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Asriel [Source: Adrift]",
@@ -201,7 +207,8 @@
     "RepositorySource": "https://repo.adrift.jp/pluginmaster.json",
     "RepositorySourceId": "adrift",
     "RepositoryEntryKey": "695aa66ba69a9bdab2e23229ec8e94984e335d65c3f1d5d39d7320f9c29f7f27",
-    "RepositoryOriginalInternalName": "ItemIcons"
+    "RepositoryOriginalInternalName": "ItemIcons",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "the Puni.sh Quest Squad [Source: Adrift]",
@@ -230,7 +237,8 @@
     "RepositorySource": "https://repo.adrift.jp/pluginmaster.json",
     "RepositorySourceId": "adrift",
     "RepositoryEntryKey": "015faa7c2e06b3a7414006af21129afb197a44db101db6634a89ccfad66f312a",
-    "RepositoryOriginalInternalName": "Questionable"
+    "RepositoryOriginalInternalName": "Questionable",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Ottermandias [Source: Adrift]",
@@ -266,7 +274,8 @@
     "RepositorySource": "https://repo.adrift.jp/pluginmaster.json",
     "RepositorySourceId": "adrift",
     "RepositoryEntryKey": "53c2a55a784edb1e106438cbf6b856004d253233981210d620de8a4e5ba313de",
-    "RepositoryOriginalInternalName": "RezPls"
+    "RepositoryOriginalInternalName": "RezPls",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Aireil [GitHub: Aireil/MyDalamudPlugins]",
@@ -299,7 +308,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Aireil/MyDalamudPlugins/master/pluginmaster.json",
     "RepositorySourceId": "aireil",
     "RepositoryEntryKey": "d2d2aca54d1b7e7cd3fbccf10c5616fdebc9f7d4e7d8a6f2d6d84f73cc031f08",
-    "RepositoryOriginalInternalName": "FFLogsViewer"
+    "RepositoryOriginalInternalName": "FFLogsViewer",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "A Realm Recorded Lite",
@@ -321,7 +331,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "1a2a342716b9e849bd9500e122c4a82afce15cbd6b194242d6203c526ea432f4",
-    "RepositoryOriginalInternalName": "ARealmRecordedLite"
+    "RepositoryOriginalInternalName": "ARealmRecordedLite",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Character Data Sync X",
@@ -343,7 +354,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "21cd0f534286b19b22db49b8ba0988e5c1fef0155c47a897d1a5a532b022e117",
-    "RepositoryOriginalInternalName": "Dalamud.CharacterSyncX"
+    "RepositoryOriginalInternalName": "Dalamud.CharacterSyncX",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "DCTravelerX",
@@ -369,7 +381,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "bb3614a688b0df81c9610dc537dee96d2af48d895fa81770d9b75be67e4a311e",
-    "RepositoryOriginalInternalName": "DCTravelerX"
+    "RepositoryOriginalInternalName": "DCTravelerX",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "EdgeTTS.Dalamud",
@@ -391,7 +404,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "4a76ace8e15b75f17d69928bf488e137070d9417d10a5ff8f37b07e64f523215",
-    "RepositoryOriginalInternalName": "EdgeTTS.Dalamud"
+    "RepositoryOriginalInternalName": "EdgeTTS.Dalamud",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "GatherBuddy Reborn",
@@ -419,7 +433,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "2b4cb0926982b5e8ea5adfaae1238737a145d1feaf22711d4b5942e59c668acd",
-    "RepositoryOriginalInternalName": "GatherBuddyReborn"
+    "RepositoryOriginalInternalName": "GatherBuddyReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "HaselDebug",
@@ -440,7 +455,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "dea3be8fbff2fc26b6d8c46e832c77c41c3f02f134635162cf8133998ca20fee",
-    "RepositoryOriginalInternalName": "HaselDebug"
+    "RepositoryOriginalInternalName": "HaselDebug",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Raphael.Dalamud",
@@ -466,7 +482,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "906a3b8fa9bb0c383bb21c33195c68239cf543613e99375b793269df1bf7337b",
-    "RepositoryOriginalInternalName": "Raphael.Dalamud"
+    "RepositoryOriginalInternalName": "Raphael.Dalamud",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "STPDebug",
@@ -488,7 +505,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "38f34e2d96ba8dad99c0f6c3c28d73c9be2ac9b3057d72e2824074ef97f68287",
-    "RepositoryOriginalInternalName": "STPDebug"
+    "RepositoryOriginalInternalName": "STPDebug",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Untarnished Heart",
@@ -518,7 +536,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "0d3884ca76f16bb14a64e0e7300747058e186932b127a077035f9504f961ec72",
-    "RepositoryOriginalInternalName": "UntarnishedHeart"
+    "RepositoryOriginalInternalName": "UntarnishedHeart",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "VFXEditorCN",
@@ -540,7 +559,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "38f67538b739076c5eb1c64a51412a1316a27e2c840075489a782a89ed04aa99",
-    "RepositoryOriginalInternalName": "VFXEditorCN"
+    "RepositoryOriginalInternalName": "VFXEditorCN",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "vnavmesh",
@@ -562,7 +582,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "atmoomen",
     "RepositoryEntryKey": "dd6e1ba4b1e311007f4ab03f36ecacc73403a9becafe3dddcae7ecca4ef58a43",
-    "RepositoryOriginalInternalName": "vnavmesh"
+    "RepositoryOriginalInternalName": "vnavmesh",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -597,7 +618,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "4df904813fb9455319483f19e776ebf0de514ee67d266535d1f083be85d4f18d",
-    "RepositoryOriginalInternalName": "ActionTimelineReborn"
+    "RepositoryOriginalInternalName": "ActionTimelineReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -637,7 +659,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "3cc202bc9b23112347818e70be84b3ec6770c975a44c1dd841a62fa5d1d49503",
-    "RepositoryOriginalInternalName": "BossModReborn"
+    "RepositoryOriginalInternalName": "BossModReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -673,7 +696,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "b510fd5d648ad025af5578f649043407af571553f5b1a4b4b5e03f82b10d1c76",
-    "RepositoryOriginalInternalName": "EasyZoomReborn"
+    "RepositoryOriginalInternalName": "EasyZoomReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -718,7 +742,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "778c9d89b450ac34a2825124ec0f542dea6025482f2779377afd307caa5f8de7",
-    "RepositoryOriginalInternalName": "GatherBuddyReborn"
+    "RepositoryOriginalInternalName": "GatherBuddyReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -759,7 +784,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "9c944a31a32db313b108433b020b10bcd0ea6891351748e770f4d88dfa6ca7be",
-    "RepositoryOriginalInternalName": "NoSillyReborn"
+    "RepositoryOriginalInternalName": "NoSillyReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -800,7 +826,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "78d9a19e1225cbb1130c4492cba66df4b909ad0a050b5327aea2bda9e8b26994",
-    "RepositoryOriginalInternalName": "PassportCheckerReborn"
+    "RepositoryOriginalInternalName": "PassportCheckerReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -833,7 +860,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "e0b032e5e9a75042231b747323a510fc3327d8bcf280e06dce1aadff566ebc51",
-    "RepositoryOriginalInternalName": "RebornToolbox"
+    "RepositoryOriginalInternalName": "RebornToolbox",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -875,7 +903,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "53a44060512b338487845a48a606f1707be30a3f97ed8104e6ac0305e66a5e1e",
-    "RepositoryOriginalInternalName": "RotationSolver"
+    "RepositoryOriginalInternalName": "RotationSolver",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Churin [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -913,7 +942,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "2ada164e7b287d80aa39d174ec814238039dc6e8674826c7a1eaa21928e7be79",
-    "RepositoryOriginalInternalName": "Understudy"
+    "RepositoryOriginalInternalName": "Understudy",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team [GitHub: FFXIV-CombatReborn/CombatRebornRepo]",
@@ -951,7 +981,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "RepositorySourceId": "combat-reborn",
     "RepositoryEntryKey": "241b2e8482e700f0d09baf577c39bb76a1c91ef164533820f22931281158d020",
-    "RepositoryOriginalInternalName": "ZodiacBuddyReborn"
+    "RepositoryOriginalInternalName": "ZodiacBuddyReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Haselnussbomber [GitHub: Haselnussbomber/MyDalamudPlugins]",
@@ -978,7 +1009,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json",
     "RepositorySourceId": "haselnussbomber",
     "RepositoryEntryKey": "177f357aa38b02b7013af838bc74cdca032f1b262d3967bc9e4a6f7d66d80c9d",
-    "RepositoryOriginalInternalName": "HaselDebug"
+    "RepositoryOriginalInternalName": "HaselDebug",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Haselnussbomber [GitHub: Haselnussbomber/MyDalamudPlugins]",
@@ -1098,7 +1130,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json",
     "RepositorySourceId": "haselnussbomber",
     "RepositoryEntryKey": "a927c0c3a2570abea358664c901f1b783387bfe0029e3f5c2a78fc977c6c55da",
-    "RepositoryOriginalInternalName": "HaselTweaks"
+    "RepositoryOriginalInternalName": "HaselTweaks",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Haselnussbomber [GitHub: Haselnussbomber/MyDalamudPlugins]",
@@ -1126,7 +1159,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json",
     "RepositorySourceId": "haselnussbomber",
     "RepositoryEntryKey": "254db0651123c0564a36b039e588c29d2928255e691d234052d89cf9aa7b9112",
-    "RepositoryOriginalInternalName": "LeveHelper"
+    "RepositoryOriginalInternalName": "LeveHelper",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Usagi [GitHub: marzent/IINACT]",
@@ -1157,7 +1191,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/marzent/IINACT/main/repo.json",
     "RepositorySourceId": "iinact",
     "RepositoryEntryKey": "9b6fbb5a8587d38261fbd97916efea9e4b88864c118c2346b7342133cf742ad8",
-    "RepositoryOriginalInternalName": "IINACT"
+    "RepositoryOriginalInternalName": "IINACT",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Author [GitHub: Na7shi/XIV]",
@@ -1183,7 +1218,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "18b1572a34d27413bb8320dcb36f8c6f702f26b168ea47d91e889af3ee23d23f",
-    "RepositoryOriginalInternalName": "ActivityOrchestrator"
+    "RepositoryOriginalInternalName": "ActivityOrchestrator",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "XeldarAlz extended by Author [GitHub: Na7shi/XIV]",
@@ -1213,7 +1249,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "63005c6ebc6eba3893fb1ff5b77e7832ab07b275636e9e6ff7dcc3888ab286db",
-    "RepositoryOriginalInternalName": "AutoFateGrindExtend"
+    "RepositoryOriginalInternalName": "AutoFateGrindExtend",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Faye, Kage extended by Author [GitHub: Na7shi/XIV]",
@@ -1249,7 +1286,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "c88697a9a5866cd79cd5dd43684d4e49c72791597ee16f74c79f18fa9eec7b93",
-    "RepositoryOriginalInternalName": "BOCCHIExtend"
+    "RepositoryOriginalInternalName": "BOCCHIExtend",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Author [GitHub: Na7shi/XIV]",
@@ -1274,7 +1312,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "e261727033d3e7383e45d81e78a8bd8fd81f168b7b2b5b10327f02d18370e846",
-    "RepositoryOriginalInternalName": "DailyRoutinesExtend"
+    "RepositoryOriginalInternalName": "DailyRoutinesExtend",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Author [GitHub: Na7shi/XIV]",
@@ -1300,7 +1339,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "d1ddad733e4bc472d080247a848ec41969cf9ccf4042c5d885043b175c90524d",
-    "RepositoryOriginalInternalName": "Exmachina"
+    "RepositoryOriginalInternalName": "Exmachina",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Author [GitHub: Na7shi/XIV]",
@@ -1325,7 +1365,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "15a610dbe1feb9168d8f6a22f0e82a6240653c7a80b0e85a1e9bd678ae161e30",
-    "RepositoryOriginalInternalName": "ExtendDebug"
+    "RepositoryOriginalInternalName": "ExtendDebug",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Aireil extended by Author [GitHub: Na7shi/XIV]",
@@ -1354,7 +1395,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "6aa92cccff50e4d1f88262e8991fbc07b45bf2f9719f9ac15e27db6c903019bf",
-    "RepositoryOriginalInternalName": "LogsViewerExtend"
+    "RepositoryOriginalInternalName": "LogsViewerExtend",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Author [GitHub: Na7shi/XIV]",
@@ -1379,7 +1421,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "0d0869db1c2e12f3b7d9d0e61b2038d9fd0846d0e5f1da3a33c6230197b42f1c",
-    "RepositoryOriginalInternalName": "MaskedCarnivale"
+    "RepositoryOriginalInternalName": "MaskedCarnivale",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Author [GitHub: Na7shi/XIV]",
@@ -1409,7 +1452,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "a03ccfa5c8ef657e01df6109e2051b31a24e21a1b0921274400f8d4ebac38cb1",
-    "RepositoryOriginalInternalName": "NyaDrawExtend"
+    "RepositoryOriginalInternalName": "NyaDrawExtend",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Author [GitHub: Na7shi/XIV]",
@@ -1438,7 +1482,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "cece9b66df7c72a37f18d63191cab39493ecb43eff3ca2cc34c813f3dab7def5",
-    "RepositoryOriginalInternalName": "RemoteDalamud"
+    "RepositoryOriginalInternalName": "RemoteDalamud",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Author [GitHub: Na7shi/XIV]",
@@ -1458,7 +1503,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json",
     "RepositorySourceId": "na7shi-xiv",
     "RepositoryEntryKey": "0ea60847bb289e57ca8cb5ba31bc06554b440aa75c246d6f6b6827d570f51026",
-    "RepositoryOriginalInternalName": "ReplayConverter"
+    "RepositoryOriginalInternalName": "ReplayConverter",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1484,7 +1530,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "f921d0b0e1ec9ead6cd808788d201bf1db8e81b4484af885c7c77f393d1d1326",
-    "RepositoryOriginalInternalName": "AntiAfkKick-Dalamud"
+    "RepositoryOriginalInternalName": "AntiAfkKick-Dalamud",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1514,7 +1561,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "c5988016ac9c66fc94788cfb75b0e63785825b5dff5aa16f39940f21a5b418aa",
-    "RepositoryOriginalInternalName": "Battlevest"
+    "RepositoryOriginalInternalName": "Battlevest",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1543,7 +1591,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "388d1ffb0e448982f6d39985b3618a5c625e7da89855831c06acb5741bfe3765",
-    "RepositoryOriginalInternalName": "DSREyeLocator"
+    "RepositoryOriginalInternalName": "DSREyeLocator",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV, AsunaTsuki [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1571,7 +1620,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "f8cf96a0ef6817618d985ea7ef85ff735da7bd0fa615672db09b4568ec435b34",
-    "RepositoryOriginalInternalName": "DynamicBridge"
+    "RepositoryOriginalInternalName": "DynamicBridge",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1601,7 +1651,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "a896840b12c34aaca6cd51531abfcf938d346d6113124397fea7327c74d127cf",
-    "RepositoryOriginalInternalName": "HuntTrainAssistant"
+    "RepositoryOriginalInternalName": "HuntTrainAssistant",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1625,7 +1676,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "0f199aa2ec8233a8bbd1b13148e6970b8b55696e7869bd94af8848cf596c39e5",
-    "RepositoryOriginalInternalName": "Imagenation"
+    "RepositoryOriginalInternalName": "Imagenation",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1655,7 +1707,37 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "7e72b51b16f7e1df1da14268c66fed83c08c72086f808c4c0fa032b0980bc42b",
-    "RepositoryOriginalInternalName": "Lifestream"
+    "RepositoryOriginalInternalName": "Lifestream",
+    "RepositoryDownloadUrlValid": true
+  },
+  {
+    "Author": "NightmareXIV, Marulu, StreetRat [GitHub: NightmareXIV/MyDalamudPlugins]",
+    "Name": "MaskedCarnivale",
+    "Punchline": "Display the game in a separate window",
+    "Description": "Allows you to record, or stream your game without displaying Dalamud plugins.",
+    "Tags": [
+      "utility"
+    ],
+    "IsHide": true,
+    "InternalName": "MaskedCarnivale",
+    "AssemblyVersion": "0.0.0.7",
+    "TestingAssemblyVersion": "0.0.0.7",
+    "IsTestingExclusive": true,
+    "RepoUrl": "https://github.com/NightmareXIV/MaskedCarnivale",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "LastUpdate": 1779699404,
+    "DownloadLinkTesting": "https://github.com/NightmareXIV/MaskedCarnivale/releases/download/0.0.0.7/latest.zip",
+    "SupportsProfiles": true,
+    "OriginalAuthor": "NightmareXIV, Marulu, StreetRat",
+    "RepositorySourceLabel": "GitHub: NightmareXIV/MyDalamudPlugins",
+    "RepositoryDisplayAuthor": "NightmareXIV, Marulu, StreetRat [GitHub: NightmareXIV/MyDalamudPlugins]",
+    "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepositorySourceId": "nightmarexiv-github",
+    "RepositoryEntryKey": "5fc8be7f1e5cbadef54bafdc03eac515df930d43d6f448c9bfc0b47102d43076",
+    "RepositoryOriginalInternalName": "MaskedCarnivale",
+    "RepositoryDownloadUrlValid": false
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1680,7 +1762,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "6a53b53c309218bd6c76e64c9e298dd9244164756f55371faff96cfe432e770b",
-    "RepositoryOriginalInternalName": "ObjectExplorer"
+    "RepositoryOriginalInternalName": "ObjectExplorer",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1706,7 +1789,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "b5230ec0b30d86c9153c10a64e925a271d6faa9af1b6455093328d3bc601a663",
-    "RepositoryOriginalInternalName": "Prioritizer"
+    "RepositoryOriginalInternalName": "Prioritizer",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1736,7 +1820,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "83f4a2033b138ac6c070ee747f4ba82abe3e3b7ab730687c425aa2f789317715",
-    "RepositoryOriginalInternalName": "SelectString"
+    "RepositoryOriginalInternalName": "SelectString",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1761,7 +1846,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "1659f861e3359dfe459af71ff5cba119076c908000213cc91cca66d3df980105",
-    "RepositoryOriginalInternalName": "StandalonePluginManager"
+    "RepositoryOriginalInternalName": "StandalonePluginManager",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1790,7 +1876,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "c4c61386aa347d36fab86323052440f215ec6bb34d739c8d95dd0fd63f4d4dbc",
-    "RepositoryOriginalInternalName": "Stylist"
+    "RepositoryOriginalInternalName": "Stylist",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1819,7 +1906,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "200238331f65bb28f244df4fcf775b0f1dccf586417181a3df2e17346b865c4d",
-    "RepositoryOriginalInternalName": "TextAdvance"
+    "RepositoryOriginalInternalName": "TextAdvance",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1844,7 +1932,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "16528b0cfe71ac236f3fca796089f54fdba37ebf138d5d2d8ee663cf7d36b1f6",
-    "RepositoryOriginalInternalName": "UnloadErrorFuckOff"
+    "RepositoryOriginalInternalName": "UnloadErrorFuckOff",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [GitHub: NightmareXIV/MyDalamudPlugins]",
@@ -1869,7 +1958,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "nightmarexiv-github",
     "RepositoryEntryKey": "2d0e57f59228086aa1209a24099e881f07db4a8e02662bbf67ab1ea8bd855786",
-    "RepositoryOriginalInternalName": "WExtras"
+    "RepositoryOriginalInternalName": "WExtras",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Asteria Nocturna [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -1892,7 +1982,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "253313cf34805934878b5450c5181576dd89390d49012b651f3aafa1a34e49cf",
-    "RepositoryOriginalInternalName": "AetheryteLinkInChat"
+    "RepositoryOriginalInternalName": "AetheryteLinkInChat",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Asteria Nocturna [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -1915,7 +2006,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "613b22b909679300f1d2c506f25f957a1714ea4288e20d78802ddff97d14c200",
-    "RepositoryOriginalInternalName": "AetheryteLinkInChat"
+    "RepositoryOriginalInternalName": "AetheryteLinkInChat",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Asteria Nocturna [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -1938,7 +2030,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "cf317b428a9bf9d4f30657771c7c86ec9a0de9005b73b099705c343e7d3fd0dc",
-    "RepositoryOriginalInternalName": "AetheryteLinkInChat"
+    "RepositoryOriginalInternalName": "AetheryteLinkInChat",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Faye / NiGuangOwO (适配&优化) / Ookura-Risona (汉化) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -1971,7 +2064,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "32eba9ecb0c0e37db928b10df5913de73b7ee0b09bca7546a4b0e2b21f932c0f",
-    "RepositoryOriginalInternalName": "BOCCHI"
+    "RepositoryOriginalInternalName": "BOCCHI",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Faye / NiGuangOwO (适配&优化) / Ookura-Risona (汉化) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2005,7 +2099,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "5992126e62f96c61bcfe6278d5a91cd499bc1737869da29c6120d03f3c19dbd6",
-    "RepositoryOriginalInternalName": "BOCCHI"
+    "RepositoryOriginalInternalName": "BOCCHI",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Faye / NiGuangOwO (适配&优化) / Ookura-Risona (汉化) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2039,7 +2134,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "67a1b3a1d15f8b2316009e41eb4caa7ce7d1b5dff41c9829741ad50f219725cc",
-    "RepositoryOriginalInternalName": "BOCCHI"
+    "RepositoryOriginalInternalName": "BOCCHI",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配） [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2066,7 +2162,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "63ac2b66f8042fc00977d1001e33a17acfd85c44a9e308da43d350eafbfc9d76",
-    "RepositoryOriginalInternalName": "BossModReborn"
+    "RepositoryOriginalInternalName": "BossModReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配） [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2102,7 +2199,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "f0926d52247aee145e1fdc6df3dc56772631d2076206926dfd9021d92c3ab5a9",
-    "RepositoryOriginalInternalName": "BossModReborn"
+    "RepositoryOriginalInternalName": "BossModReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配） [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2130,7 +2228,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "fc985daac823e7644524c1e37d9ab34538ac76d181dcb46741b7bc9a39fbcfff",
-    "RepositoryOriginalInternalName": "BossModReborn"
+    "RepositoryOriginalInternalName": "BossModReborn",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2154,7 +2253,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "1b7dc1badaa4057003930f15de2ba14bf63cc513d03edef06dbfca71b84a07a9",
-    "RepositoryOriginalInternalName": "FuckAnimationLock"
+    "RepositoryOriginalInternalName": "FuckAnimationLock",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2179,7 +2279,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "8be2d7ca1ed2c3209e3d5ba51e3b8ac73e1daefccd84bcbaff7e401dab75811f",
-    "RepositoryOriginalInternalName": "FuckAnimationLock"
+    "RepositoryOriginalInternalName": "FuckAnimationLock",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2204,7 +2305,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "99fcdc18d7a978508c1bd04098f52a90da4c157f63c8fa6172d83e688fbee14b",
-    "RepositoryOriginalInternalName": "FuckAnimationLock"
+    "RepositoryOriginalInternalName": "FuckAnimationLock",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2228,7 +2330,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "ab13e8b3763584839583d76c0c9014684fc18b33255faf1a9a59e07c8066203c",
-    "RepositoryOriginalInternalName": "FuckAnimationLock"
+    "RepositoryOriginalInternalName": "FuckAnimationLock",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Bluefissure [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2250,7 +2353,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "78f239a22bc464e15504e4a81cf313b97831c00b03518a86141a4cb7b8376fe8",
-    "RepositoryOriginalInternalName": "Inviter"
+    "RepositoryOriginalInternalName": "Inviter",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Bluefissure [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2272,7 +2376,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "f1da4ea4df099a5a0a5a8d71c5862e067c89c6f0980bc92b530374867c46bb1f",
-    "RepositoryOriginalInternalName": "Inviter"
+    "RepositoryOriginalInternalName": "Inviter",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "53m1k0l0n/Gidedin (Puni.sh) / NiGuangOwO (本地化) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2301,7 +2406,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "518e9c71fe945a22445b60979963f96ed9ed020838c01e0372cc32b9bd49e15a",
-    "RepositoryOriginalInternalName": "LazyLoot"
+    "RepositoryOriginalInternalName": "LazyLoot",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "53m1k0l0n/Gidedin (Puni.sh) / NiGuangOwO (本地化) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2330,7 +2436,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "5ced2866dcee964824e1fa2929721c9eecedbb925ada7677f30522d211a6f716",
-    "RepositoryOriginalInternalName": "LazyLoot"
+    "RepositoryOriginalInternalName": "LazyLoot",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "53m1k0l0n/Gidedin (Puni.sh) / NiGuangOwO (本地化) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2359,7 +2466,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "ed990b19ac83bfe338bba88333046cb703106aee2ce295d181bb99459274e844",
-    "RepositoryOriginalInternalName": "LazyLoot"
+    "RepositoryOriginalInternalName": "LazyLoot",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "53m1k0l0n/Gidedin (Puni.sh) / NiGuangOwO (本地化) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2388,7 +2496,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "fdeeca63a4cbb0530c41255167f24da198c442eacbc336c722fb950c303bd377",
-    "RepositoryOriginalInternalName": "LazyLoot"
+    "RepositoryOriginalInternalName": "LazyLoot",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV / NiGuangOwO（汉化&适配） [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2410,7 +2519,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "6b9289071fd421158067128e93aaba60f8c83b325a71603d487b8922a0d9de92",
-    "RepositoryOriginalInternalName": "Lifestream"
+    "RepositoryOriginalInternalName": "Lifestream",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV / NiGuangOwO（汉化&适配） [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2433,7 +2543,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "7d391512efa7fb3492906ceaf36bfb34018d633666d9150fd2e4dc76e85ab536",
-    "RepositoryOriginalInternalName": "Lifestream"
+    "RepositoryOriginalInternalName": "Lifestream",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV / NiGuangOwO（汉化&适配） [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2455,7 +2566,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "c73fbfa68b4c984609cb3e153f0e19423c53c2d92000f8d1602c5fadd78627ff",
-    "RepositoryOriginalInternalName": "Lifestream"
+    "RepositoryOriginalInternalName": "Lifestream",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2478,7 +2590,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "37256df62203d1c42898ffe441e41f880f6ad102125df58ece4e4f0b7e6ef15b",
-    "RepositoryOriginalInternalName": "LuckyStar"
+    "RepositoryOriginalInternalName": "LuckyStar",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2501,7 +2614,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "3c1c54c50bee0e52ffb8a1ae3e0c6465e758e811462e2ca4caa19bf13934423c",
-    "RepositoryOriginalInternalName": "LuckyStar"
+    "RepositoryOriginalInternalName": "LuckyStar",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2524,7 +2638,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "953190706f2d58ee858efdb5b4a125594f6e0ddc36b81380ce27c2b2b71cca60",
-    "RepositoryOriginalInternalName": "LuckyStar"
+    "RepositoryOriginalInternalName": "LuckyStar",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Small_Miao [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2549,7 +2664,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "607e7dfcd1439921264ecdcea576f401e0490e06a600b635fe2390e7debe345f",
-    "RepositoryOriginalInternalName": "MechanicSim"
+    "RepositoryOriginalInternalName": "MechanicSim",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Small_Miao [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2574,7 +2690,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "337af8c4ef8a61296a1ad89d0292e0202ea5f066d8cea0d081bfd643714ba0b6",
-    "RepositoryOriginalInternalName": "NyaDamagePrediction"
+    "RepositoryOriginalInternalName": "NyaDamagePrediction",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO, Small_Miao (moewcorp) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2600,7 +2717,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "26d162bd457cfc37dcb6018e1838cf13590ed819a98e0845541a93a04df7e043",
-    "RepositoryOriginalInternalName": "NyaDraw"
+    "RepositoryOriginalInternalName": "NyaDraw",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO / Small_Miao [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2626,7 +2744,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "7393171f07687568393499b80e9601664bdc402d4720375cac5c974fc0654295",
-    "RepositoryOriginalInternalName": "NyaDraw"
+    "RepositoryOriginalInternalName": "NyaDraw",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO / Small_Miao [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2653,7 +2772,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "c3e2e1d84d86c113af0983712f90d25cd6d1724e07f3fb565d91bdefd2cd8fd1",
-    "RepositoryOriginalInternalName": "NyaDraw"
+    "RepositoryOriginalInternalName": "NyaDraw",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO, Small_Miao (moewcorp) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2679,7 +2799,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "f75d87511b1e07d7aac36e9f111815c8023e4d43ee044914cf7f72f698f11169",
-    "RepositoryOriginalInternalName": "NyaDraw"
+    "RepositoryOriginalInternalName": "NyaDraw",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Liza Carvelli (Puni.sh) / NiGuangOwO (本地化适配) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2707,7 +2828,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "166ad0361b9c89081fce453d458aea38a557aae89a3161b663498731e970e1a0",
-    "RepositoryOriginalInternalName": "PalacePal"
+    "RepositoryOriginalInternalName": "PalacePal",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Liza Carvelli (Puni.sh) / NiGuangOwO (本地化适配) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2735,7 +2857,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "666befc4ac516e87d1673e47c186683ffe3b844f3c807efce886b9ffe514dba2",
-    "RepositoryOriginalInternalName": "PalacePal"
+    "RepositoryOriginalInternalName": "PalacePal",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Liza Carvelli (Puni.sh) / NiGuangOwO (本地化适配) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2763,7 +2886,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "75c72393e4326f0cf94ebc51773929cb26c202b9de9af7dbf7ce5637f6cf99d3",
-    "RepositoryOriginalInternalName": "PalacePal"
+    "RepositoryOriginalInternalName": "PalacePal",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2790,7 +2914,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "24207ffd127560129f3742628bf6e175886abe7baea3919adfc106c0469b7275",
-    "RepositoryOriginalInternalName": "PandorasBox"
+    "RepositoryOriginalInternalName": "PandorasBox",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2817,7 +2942,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "56e7ee8fe3e4c7a10905c4d48ed40cdf6e498d514657ef135411da5d5ec8a7a2",
-    "RepositoryOriginalInternalName": "PandorasBox"
+    "RepositoryOriginalInternalName": "PandorasBox",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2844,7 +2970,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "7fb102947b3b985d638e10dacd3bbfd24333a640c93d06f23090a25a2c33ecc4",
-    "RepositoryOriginalInternalName": "PandorasBox"
+    "RepositoryOriginalInternalName": "PandorasBox",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护) [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2871,7 +2998,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "e2ece2146d2443fbb9d0bc2daa19d4184a5f976f8c769e0f5bf82e042ff3005a",
-    "RepositoryOriginalInternalName": "PandorasBox"
+    "RepositoryOriginalInternalName": "PandorasBox",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2894,7 +3022,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "4f972a3aa04b221e3bc2221bed15e8bb2d175f4872a654788ee01e1a20d96203",
-    "RepositoryOriginalInternalName": "SSMinionBoradcast"
+    "RepositoryOriginalInternalName": "SSMinionBoradcast",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2917,7 +3046,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "bb5496d56c3051072201a8a09f82599b653cbdc1bd16682bc38bd75c492affb6",
-    "RepositoryOriginalInternalName": "SSMinionBoradcast"
+    "RepositoryOriginalInternalName": "SSMinionBoradcast",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NiGuangOwO [GitHub: NiGuangOwO/DalamudPlugins]",
@@ -2940,7 +3070,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json",
     "RepositorySourceId": "niguangowo",
     "RepositoryEntryKey": "f9885eaeab6c1fbd2e6df6465138de4a1b2eba87a4a23394b5acc5fffd030ee7",
-    "RepositoryOriginalInternalName": "SSMinionBoradcast"
+    "RepositoryOriginalInternalName": "SSMinionBoradcast",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Faye, Kage [GitHub: OhKannaDuh/plugins]",
@@ -2974,7 +3105,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/OhKannaDuh/plugins/refs/heads/master/manifest.json",
     "RepositorySourceId": "ohkannaduh",
     "RepositoryEntryKey": "f2348c25f9a8c67bdb62917214c4f0efcf48487da4f4ddd20973688bc1cdf02d",
-    "RepositoryOriginalInternalName": "BOCCHI"
+    "RepositoryOriginalInternalName": "BOCCHI",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "croizat [Source: Puni.sh Croizat]",
@@ -3002,7 +3134,8 @@
     "RepositorySource": "https://puni.sh/api/repository/croizat",
     "RepositorySourceId": "puni-croizat",
     "RepositoryEntryKey": "416c44ab6c8658ab345c95ace3338a31944ae1ff71b380ca95819f02f4da9763",
-    "RepositoryOriginalInternalName": "Automaton"
+    "RepositoryOriginalInternalName": "Automaton",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "croizat [Source: Puni.sh Croizat]",
@@ -3028,7 +3161,8 @@
     "RepositorySource": "https://puni.sh/api/repository/croizat",
     "RepositorySourceId": "puni-croizat",
     "RepositoryEntryKey": "8de5d5b2c1f0ccc98ddf5e7f513b622fab891ef7269a4a278cd7d887371631f1",
-    "RepositoryOriginalInternalName": "GlamourLog"
+    "RepositoryOriginalInternalName": "GlamourLog",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "daemitus, croizat [Source: Puni.sh Croizat]",
@@ -3052,7 +3186,8 @@
     "RepositorySource": "https://puni.sh/api/repository/croizat",
     "RepositorySourceId": "puni-croizat",
     "RepositoryEntryKey": "5ecb6e510b928a02152fa4e5d5e79fce2512da0120fe4bc4695fcf12504e1395",
-    "RepositoryOriginalInternalName": "SomethingNeedDoing"
+    "RepositoryOriginalInternalName": "SomethingNeedDoing",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "erdelf, Herculezz [Source: Puni.sh Erdelf]",
@@ -3095,7 +3230,8 @@
     "RepositorySource": "https://puni.sh/api/repository/erdelf",
     "RepositorySourceId": "puni-erdelf",
     "RepositoryEntryKey": "b9bf79ab6613408c1c906b8a4d779f06c2fc7b8b585aa64fd2d087526997c622",
-    "RepositoryOriginalInternalName": "AutoDuty"
+    "RepositoryOriginalInternalName": "AutoDuty",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "erdelf [Source: Puni.sh Erdelf]",
@@ -3132,7 +3268,8 @@
     "RepositorySource": "https://puni.sh/api/repository/erdelf",
     "RepositorySourceId": "puni-erdelf",
     "RepositoryEntryKey": "d36d2d4aded5499a3a31624e5a4551e8281298d130005a44771569271a6add81",
-    "RepositoryOriginalInternalName": "FCTracker"
+    "RepositoryOriginalInternalName": "FCTracker",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Ice [Source: Puni.sh Ice]",
@@ -3160,7 +3297,8 @@
     "RepositorySource": "https://puni.sh/api/repository/ice",
     "RepositorySourceId": "puni-ice",
     "RepositoryEntryKey": "b145cd33a26dafe25f1d146556e9d14989c5ad223616c30e69682b306257700f",
-    "RepositoryOriginalInternalName": "ChilledLeves"
+    "RepositoryOriginalInternalName": "ChilledLeves",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Ice [Source: Puni.sh Ice]",
@@ -3188,7 +3326,8 @@
     "RepositorySource": "https://puni.sh/api/repository/ice",
     "RepositorySourceId": "puni-ice",
     "RepositoryEntryKey": "64b3d1a669e5a8c430b738334a724b59830a38f084c5145a835d59afc14186c9",
-    "RepositoryOriginalInternalName": "ExplorersIcebox"
+    "RepositoryOriginalInternalName": "ExplorersIcebox",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Ice [Source: Puni.sh Ice]",
@@ -3223,7 +3362,8 @@
     "RepositorySource": "https://puni.sh/api/repository/ice",
     "RepositorySourceId": "puni-ice",
     "RepositoryEntryKey": "4c30ccb41cfe8795c394cc5286512240201403f372c0a3a36389c8b2eabbdabf",
-    "RepositoryOriginalInternalName": "ICE"
+    "RepositoryOriginalInternalName": "ICE",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii [Source: Puni.sh Kawaii]",
@@ -3252,7 +3392,8 @@
     "RepositorySource": "https://puni.sh/api/repository/kawaii",
     "RepositorySourceId": "puni-kawaii",
     "RepositoryEntryKey": "08724f9ab24062e919af99850136033a5e4db8ec3cb6b68faaaf4ed8b7cbbc45",
-    "RepositoryOriginalInternalName": "Chocoholic"
+    "RepositoryOriginalInternalName": "Chocoholic",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii [Source: Puni.sh Kawaii]",
@@ -3278,7 +3419,8 @@
     "RepositorySource": "https://puni.sh/api/repository/kawaii",
     "RepositorySourceId": "puni-kawaii",
     "RepositoryEntryKey": "c32fedba10b32d5c2ca5c4197bdffbe5cceb5b7dfecf037917ebb236cfc88a1d",
-    "RepositoryOriginalInternalName": "Dropbox"
+    "RepositoryOriginalInternalName": "Dropbox",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii, NightmareXIV [Source: Puni.sh Kawaii]",
@@ -3310,7 +3452,8 @@
     "RepositorySource": "https://puni.sh/api/repository/kawaii",
     "RepositorySourceId": "puni-kawaii",
     "RepositoryEntryKey": "6d3f9d27995626d814a29953aa4e3b69dd29a56496bf29fb688d36c3b83b687a",
-    "RepositoryOriginalInternalName": "Hyperborea"
+    "RepositoryOriginalInternalName": "Hyperborea",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey, kawaii, NightmareXIV [Source: Puni.sh Ment]",
@@ -3339,7 +3482,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "8fa81a09750be7f711a49be6f6bed912be50976a883f9ee9db1b0135cb78e5fb",
-    "RepositoryOriginalInternalName": "Artisan"
+    "RepositoryOriginalInternalName": "Artisan",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Det, croizat [Source: Puni.sh Ment]",
@@ -3369,7 +3513,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "083225be0a15839163167db6974966ba82c4ce599b13583fe1dbffcd7a8ab6f3",
-    "RepositoryOriginalInternalName": "AutoHook"
+    "RepositoryOriginalInternalName": "AutoHook",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii, NightmareXIV [Source: Puni.sh Ment]",
@@ -3396,7 +3541,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "9ff53d4523dadcc8f2bd31a95454f38061abf3b7a86bed89e7f1fe4265d904f6",
-    "RepositoryOriginalInternalName": "AutoRetainer"
+    "RepositoryOriginalInternalName": "AutoRetainer",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii, NightmareXIV [Source: Puni.sh Ment]",
@@ -3425,7 +3571,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "d5d307d36c2a29661d1724a6ea6865b60437831b669a174e8ce003bc2865bff1",
-    "RepositoryOriginalInternalName": "Avarice"
+    "RepositoryOriginalInternalName": "Avarice",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey, Gid, NightmareXIV [Source: Puni.sh Ment]",
@@ -3454,7 +3601,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "7d2d89c9f6d8010dea26a5e911db4f16df036b9689cd49d234a1a04009f574b5",
-    "RepositoryOriginalInternalName": "LazyLoot"
+    "RepositoryOriginalInternalName": "LazyLoot",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Chalkos, NightmareXIV [Source: Puni.sh Ment]",
@@ -3480,7 +3628,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "7e7736a81ccce661bd1e6fbef36ed16620010d5b7e8a68c327ee6cf2451c8b10",
-    "RepositoryOriginalInternalName": "Marketbuddy"
+    "RepositoryOriginalInternalName": "Marketbuddy",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii, NightmareXIV [Source: Puni.sh Ment]",
@@ -3504,7 +3653,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "b56181ee6111d84912c50e6dba786008a7de6f1cfcc8133c3593fc48123966f7",
-    "RepositoryOriginalInternalName": "Orbwalker"
+    "RepositoryOriginalInternalName": "Orbwalker",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii, jukka [Source: Puni.sh Ment]",
@@ -3533,7 +3683,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "cd657623972090934f6e0719683f5000be74ff2182ca512391daeca9b13b63f2",
-    "RepositoryOriginalInternalName": "PalacePal"
+    "RepositoryOriginalInternalName": "PalacePal",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey, NightmareXIV, croizat [Source: Puni.sh Ment]",
@@ -3565,7 +3716,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "2900d0171020a175e6c7b097779f6b0bec6b54125c94b842701154efe93755e7",
-    "RepositoryOriginalInternalName": "PandorasBox"
+    "RepositoryOriginalInternalName": "PandorasBox",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "the Puni.sh Quest Squad [Source: Puni.sh Ment]",
@@ -3597,7 +3749,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "afd13339fd9db0f30187a87cb219f81538d42a17a8deb517beeb01690049b40a",
-    "RepositoryOriginalInternalName": "Questionable"
+    "RepositoryOriginalInternalName": "Questionable",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey, Kage, NightmareXIV [Source: Puni.sh Ment]",
@@ -3625,7 +3778,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "572579aff47afca4ce1399bb86d5c6d9d715377601067a98179f08a7dfb55524",
-    "RepositoryOriginalInternalName": "Saucy"
+    "RepositoryOriginalInternalName": "Saucy",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [Source: Puni.sh Ment]",
@@ -3655,7 +3809,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "5929aa7ff167fc36df28e22d01fa453ccb271aef45e9def2f904ddecc28a8c0d",
-    "RepositoryOriginalInternalName": "Splatoon"
+    "RepositoryOriginalInternalName": "Splatoon",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Team Wrath [Source: Puni.sh Ment]",
@@ -3686,7 +3841,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "ce956e06688b284677ff0ac2a66f1ef201e6ea0927a6ca20a877e6ae0cee2bea",
-    "RepositoryOriginalInternalName": "WrathCombo"
+    "RepositoryOriginalInternalName": "WrathCombo",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "daemitus, croizat [Source: Puni.sh Ment]",
@@ -3713,7 +3869,8 @@
     "RepositorySource": "https://love.puni.sh/ment.json",
     "RepositorySourceId": "puni-ment",
     "RepositoryEntryKey": "a42b144017bcb3c484056e65b3d2e5b3cae8fe19355d3e142d72dc9a86e8c20d",
-    "RepositoryOriginalInternalName": "YesAlready"
+    "RepositoryOriginalInternalName": "YesAlready",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey, kawaii, NightmareXIV [Source: Puni.sh Plugins]",
@@ -3742,7 +3899,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "a7cd467c0e18b9f0ac044793f5bf689ae9c44c960b5d8c0791d217781a5f9385",
-    "RepositoryOriginalInternalName": "Artisan"
+    "RepositoryOriginalInternalName": "Artisan",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Det, croizat [Source: Puni.sh Plugins]",
@@ -3772,7 +3930,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "256c86c04435e13ebb317d82dd9be6aeec5b4c398054b695ecd15c4ee1989b4d",
-    "RepositoryOriginalInternalName": "AutoHook"
+    "RepositoryOriginalInternalName": "AutoHook",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii, NightmareXIV [Source: Puni.sh Plugins]",
@@ -3799,7 +3958,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "e26bfeb296775807a40fd3d3390d32904e20ce903f984496e11d6fc342038963",
-    "RepositoryOriginalInternalName": "AutoRetainer"
+    "RepositoryOriginalInternalName": "AutoRetainer",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii, NightmareXIV [Source: Puni.sh Plugins]",
@@ -3828,7 +3988,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "1f086afc79cb852bc4552eb8fd7f366082da7c0f4f73295373fecda0e2761117",
-    "RepositoryOriginalInternalName": "Avarice"
+    "RepositoryOriginalInternalName": "Avarice",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey, Gid, NightmareXIV [Source: Puni.sh Plugins]",
@@ -3857,7 +4018,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "1230a439d37c321ab10ac0a65f1104f44f1d5af8d416b4cf4bcac9e5b584c3c7",
-    "RepositoryOriginalInternalName": "LazyLoot"
+    "RepositoryOriginalInternalName": "LazyLoot",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Chalkos, NightmareXIV [Source: Puni.sh Plugins]",
@@ -3883,7 +4045,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "a6502b7615447634b288feb5110407ba6ce4861638247b512b6d04cac088464d",
-    "RepositoryOriginalInternalName": "Marketbuddy"
+    "RepositoryOriginalInternalName": "Marketbuddy",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii, NightmareXIV [Source: Puni.sh Plugins]",
@@ -3907,7 +4070,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "8ed05c36797ed7820999dc4df131a34b7f48dc1f74a157183ac41f5d642dc970",
-    "RepositoryOriginalInternalName": "Orbwalker"
+    "RepositoryOriginalInternalName": "Orbwalker",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "kawaii, jukka [Source: Puni.sh Plugins]",
@@ -3936,7 +4100,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "02eaa4ed7f7bc0cc4800afcaf5f59eb36442bb5832617e78240b721bd61c6aac",
-    "RepositoryOriginalInternalName": "PalacePal"
+    "RepositoryOriginalInternalName": "PalacePal",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey, NightmareXIV, croizat [Source: Puni.sh Plugins]",
@@ -3968,7 +4133,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "de55e85c55e7473e8645dc6bd3cfd39cb5bed4049ffbd30ace312f8e2d8dd6c1",
-    "RepositoryOriginalInternalName": "PandorasBox"
+    "RepositoryOriginalInternalName": "PandorasBox",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "the Puni.sh Quest Squad [Source: Puni.sh Plugins]",
@@ -4000,7 +4166,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "d314c58e6e06244abafc0345c0b9f8c6b6775e7a33a12bcf1a5516bf611a30ff",
-    "RepositoryOriginalInternalName": "Questionable"
+    "RepositoryOriginalInternalName": "Questionable",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Taurenkey, Kage, NightmareXIV [Source: Puni.sh Plugins]",
@@ -4028,7 +4195,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "73078da74a69907dafa76367ca276999fd80a9f8b960a28fb3c5a94ea6430ace",
-    "RepositoryOriginalInternalName": "Saucy"
+    "RepositoryOriginalInternalName": "Saucy",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "NightmareXIV [Source: Puni.sh Plugins]",
@@ -4058,7 +4226,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "1358a49d7ff0b7ad65c098f6b22558a4ca4cf58bcc8011428e0a36d413c4ceb9",
-    "RepositoryOriginalInternalName": "Splatoon"
+    "RepositoryOriginalInternalName": "Splatoon",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "Team Wrath [Source: Puni.sh Plugins]",
@@ -4089,7 +4258,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "ffecdd905e7038f0d16f2f227b8a07aa6ad0164a8eda0a7c4fe3f61b553494dc",
-    "RepositoryOriginalInternalName": "WrathCombo"
+    "RepositoryOriginalInternalName": "WrathCombo",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "daemitus, croizat [Source: Puni.sh Plugins]",
@@ -4116,7 +4286,8 @@
     "RepositorySource": "https://puni.sh/api/plugins",
     "RepositorySourceId": "puni-plugins",
     "RepositoryEntryKey": "184ee0842cc46e9d9fe48ed3b60719b088a04faca12dc2488e2d8127b6b6a7c7",
-    "RepositoryOriginalInternalName": "YesAlready"
+    "RepositoryOriginalInternalName": "YesAlready",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "veyn, xan_0 [Source: Puni.sh Veyn]",
@@ -4148,7 +4319,8 @@
     "RepositorySource": "https://puni.sh/api/repository/veyn",
     "RepositorySourceId": "puni-veyn",
     "RepositoryEntryKey": "25231c9805ebf160582415918c88e624f0945324be0eac93684a1c9689a3ebab",
-    "RepositoryOriginalInternalName": "BossMod"
+    "RepositoryOriginalInternalName": "BossMod",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "veyn, croizat [Source: Puni.sh Veyn]",
@@ -4172,7 +4344,8 @@
     "RepositorySource": "https://puni.sh/api/repository/veyn",
     "RepositorySourceId": "puni-veyn",
     "RepositoryEntryKey": "d09c264f19c1059fcf34a3a6fc86b620ae910dbe59570bff27eb2ddec91ee891",
-    "RepositoryOriginalInternalName": "vfallguy"
+    "RepositoryOriginalInternalName": "vfallguy",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "veyn [Source: Puni.sh Veyn]",
@@ -4196,7 +4369,8 @@
     "RepositorySource": "https://puni.sh/api/repository/veyn",
     "RepositorySourceId": "puni-veyn",
     "RepositoryEntryKey": "6a927950f003d885635472f42b46137c9308b9868ae597fecfbdfe6e428f2bcf",
-    "RepositoryOriginalInternalName": "vfaux"
+    "RepositoryOriginalInternalName": "vfaux",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "veyn, croizat [Source: Puni.sh Veyn]",
@@ -4220,7 +4394,8 @@
     "RepositorySource": "https://puni.sh/api/repository/veyn",
     "RepositorySourceId": "puni-veyn",
     "RepositoryEntryKey": "dae54692eced6bc57e5ed30eb04b521de59a6e2d68e6531a53f246f9fe68fb5d",
-    "RepositoryOriginalInternalName": "visland"
+    "RepositoryOriginalInternalName": "visland",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "veyn, xan_0 [Source: Puni.sh Veyn]",
@@ -4247,7 +4422,8 @@
     "RepositorySource": "https://puni.sh/api/repository/veyn",
     "RepositorySourceId": "puni-veyn",
     "RepositoryEntryKey": "d3037342133d6c430edb3546a092c5d5c8188e1a9dcb48b1d8d0301923b4dd92",
-    "RepositoryOriginalInternalName": "vnavmesh"
+    "RepositoryOriginalInternalName": "vnavmesh",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "veyn, croizat [Source: Puni.sh Veyn]",
@@ -4271,7 +4447,8 @@
     "RepositorySource": "https://puni.sh/api/repository/veyn",
     "RepositorySourceId": "puni-veyn",
     "RepositoryEntryKey": "f23cf51f002d4d34e185acc196bf47ed1298980b4cf8813902989d305b202f0d",
-    "RepositoryOriginalInternalName": "vsatisfy"
+    "RepositoryOriginalInternalName": "vsatisfy",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "AetherBars",
@@ -4310,7 +4487,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "0e610470faa9f035b73e5320fa7aa57ffa14616b39eca8d6a4c24e07ac245a03",
-    "RepositoryOriginalInternalName": "AetherBars"
+    "RepositoryOriginalInternalName": "AetherBars",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "AetherCompass2",
@@ -4350,7 +4528,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "3de5883cf4d9885aba36c27139d8eb5a2a09fc66dcff242d5ecebe562fc1f55e",
-    "RepositoryOriginalInternalName": "AetherCompass2"
+    "RepositoryOriginalInternalName": "AetherCompass2",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Artisan",
@@ -4386,7 +4565,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "4971b98284aba359af8ab775aaaf729f57c3e48e317670a021610ddbf7304a38",
-    "RepositoryOriginalInternalName": "Artisan"
+    "RepositoryOriginalInternalName": "Artisan",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Auto Collector",
@@ -4426,7 +4606,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "1d2e3641aa25dfb485da436c8f839718314acb29df84bd86ee855b97cf2b960e",
-    "RepositoryOriginalInternalName": "AutoCollector"
+    "RepositoryOriginalInternalName": "AutoCollector",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "AutoDuty (forked by Estell)",
@@ -4471,7 +4652,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "760736281093c8feea906354ae7ecfaaecdaf0858947c9279b0472217d25aea0",
-    "RepositoryOriginalInternalName": "AutoDuty"
+    "RepositoryOriginalInternalName": "AutoDuty",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Bozjalone",
@@ -4514,7 +4696,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "0f40e83893c545de9d1b15781a45481e4ee4c2f2c1fa4355b964546c11ad44b1",
-    "RepositoryOriginalInternalName": "bozjalone-Dev"
+    "RepositoryOriginalInternalName": "bozjalone-Dev",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "DalamudCNAdapter forked by Estell",
@@ -4555,7 +4738,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "d4a6d0d277afea3ecd30ac3b84a190e2372a80dd70552b4d3761668dcae36923",
-    "RepositoryOriginalInternalName": "DalamudCNAdapter"
+    "RepositoryOriginalInternalName": "DalamudCNAdapter",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "HoardFarm (forked by Estell)",
@@ -4596,7 +4780,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "30d952065f28bf20f74d37638712f5cbe03b1a2b7b0079cf6fe797fa7ae344df",
-    "RepositoryOriginalInternalName": "HoardFarm"
+    "RepositoryOriginalInternalName": "HoardFarm",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Ice's Cosmic Exploration - forked by Estell",
@@ -4632,7 +4817,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "cae82a8163a3b3d912fed1f958c88cfd5fb2c93b156538ebce0178e5b35acb8c",
-    "RepositoryOriginalInternalName": "ICE"
+    "RepositoryOriginalInternalName": "ICE",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Masked Carnivale",
@@ -4674,7 +4860,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "8d97934e555a92c083f75bd9e27e46f7daa0af0887799efe2f663ad9acad126a",
-    "RepositoryOriginalInternalName": "MaskedCarnivale"
+    "RepositoryOriginalInternalName": "MaskedCarnivale",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Masked Dalamud",
@@ -4716,7 +4903,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "f7e2aa2297a51fcbfcb14a225b557c364a0bd9673772dda75e75bb1ffcedfd01",
-    "RepositoryOriginalInternalName": "MaskedDalamud"
+    "RepositoryOriginalInternalName": "MaskedDalamud",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "MidiBard 2 (Alliance)",
@@ -4757,7 +4945,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "fb0f69ebbf42123a7f7a9d99ac764f4a4dbe1e3daadb3f10e6638c9e227a60d1",
-    "RepositoryOriginalInternalName": "MidiBard2"
+    "RepositoryOriginalInternalName": "MidiBard2",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Mirage Mirror",
@@ -4795,7 +4984,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "2fa04919b66c09e7123ac7f6649b94cc3afae34635c8b001d5a7aab4e6eed5db",
-    "RepositoryOriginalInternalName": "MirageMirror"
+    "RepositoryOriginalInternalName": "MirageMirror",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "TradeVendor",
@@ -4833,7 +5023,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "d7df068bbf19c8deeb2364ad1c6038b3af72ee3b7707951eb729c0ef173d5651",
-    "RepositoryOriginalInternalName": "TradeVendor"
+    "RepositoryOriginalInternalName": "TradeVendor",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Name": "Vera's Integrated World Improvements (JP)",
@@ -4874,7 +5065,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json",
     "RepositorySourceId": "rioriopu",
     "RepositoryEntryKey": "a2ddd85448239f77572461b1730334d08ff03d3d304ab01706264f57631ee577",
-    "RepositoryOriginalInternalName": "VIWIJP"
+    "RepositoryOriginalInternalName": "VIWIJP",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "UnknownX [GitHub: UnknownX7/DalamudPluginRepo]",
@@ -4906,7 +5098,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
     "RepositorySourceId": "unknownx7",
     "RepositoryEntryKey": "0b707525b589346add7b94c66009786f51a11c018ca2fe1057ae19ca318f4ee9",
-    "RepositoryOriginalInternalName": "Cammy"
+    "RepositoryOriginalInternalName": "Cammy",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "UnknownX [GitHub: UnknownX7/DalamudPluginRepo]",
@@ -4938,7 +5131,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
     "RepositorySourceId": "unknownx7",
     "RepositoryEntryKey": "2f162a243784a3c494216b62123644bda7420a5d6d203f4f80b5d00bcdb7e29f",
-    "RepositoryOriginalInternalName": "DalamudRepoBrowser"
+    "RepositoryOriginalInternalName": "DalamudRepoBrowser",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "UnknownX [GitHub: UnknownX7/DalamudPluginRepo]",
@@ -4967,7 +5161,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
     "RepositorySourceId": "unknownx7",
     "RepositoryEntryKey": "888a7f01370deed16a37998e16684b79b9e955581f90c08f0fe58074387205a7",
-    "RepositoryOriginalInternalName": "Fractionality"
+    "RepositoryOriginalInternalName": "Fractionality",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "UnknownX [GitHub: UnknownX7/DalamudPluginRepo]",
@@ -5000,7 +5195,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
     "RepositorySourceId": "unknownx7",
     "RepositoryEntryKey": "9e033e639669a141614b4945cd2ebd14ab913a83b1547754d8cb95dc212fac04",
-    "RepositoryOriginalInternalName": "NoClippy"
+    "RepositoryOriginalInternalName": "NoClippy",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "UnknownX [GitHub: UnknownX7/DalamudPluginRepo]",
@@ -5032,7 +5228,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
     "RepositorySourceId": "unknownx7",
     "RepositoryEntryKey": "6885a6f05902b767f8ab6928bcfc668f5af403e713bca29cb9b98f07df1bd5cb",
-    "RepositoryOriginalInternalName": "OOBlugin"
+    "RepositoryOriginalInternalName": "OOBlugin",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "UnknownX [GitHub: UnknownX7/DalamudPluginRepo]",
@@ -5064,7 +5261,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
     "RepositorySourceId": "unknownx7",
     "RepositoryEntryKey": "f581bf0b9bbfe551a8e2fbe66b1ac9e942a8678d19efa3b8dc2ef62bdbf67541",
-    "RepositoryOriginalInternalName": "ReAction"
+    "RepositoryOriginalInternalName": "ReAction",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
@@ -5104,7 +5302,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
     "RepositorySourceId": "xeldaralz",
     "RepositoryEntryKey": "7731b7cfa1c597cfd1dff29a7fd402e32ffaa1957868bc638f2470d12e352e33",
-    "RepositoryOriginalInternalName": "Aetherphone"
+    "RepositoryOriginalInternalName": "Aetherphone",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
@@ -5139,7 +5338,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
     "RepositorySourceId": "xeldaralz",
     "RepositoryEntryKey": "0c669f3d7781c3f97d6792a35303f5f50de9823dcda537de4d011918d1b43f31",
-    "RepositoryOriginalInternalName": "AutoDailyTribes"
+    "RepositoryOriginalInternalName": "AutoDailyTribes",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
@@ -5175,7 +5375,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
     "RepositorySourceId": "xeldaralz",
     "RepositoryEntryKey": "9c3ec3fd0d5fa5b922020b01ca2dccea46d25ccc4b45c9bf02fda8b982a6bb0b",
-    "RepositoryOriginalInternalName": "AutoFateGrind"
+    "RepositoryOriginalInternalName": "AutoFateGrind",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
@@ -5212,7 +5413,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
     "RepositorySourceId": "xeldaralz",
     "RepositoryEntryKey": "344936eaabed115efe5bdf4c6456a7ccdc2d69882127deaee31a4d8a27efec58",
-    "RepositoryOriginalInternalName": "AutoHuntGrinder"
+    "RepositoryOriginalInternalName": "AutoHuntGrinder",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
@@ -5248,7 +5450,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
     "RepositorySourceId": "xeldaralz",
     "RepositoryEntryKey": "92a0fa24039a90dcef5d6813a547117a44cd038271a3d959f5b7a30f3e6eadb6",
-    "RepositoryOriginalInternalName": "AutoPvpSeriesGrind"
+    "RepositoryOriginalInternalName": "AutoPvpSeriesGrind",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
@@ -5292,7 +5495,8 @@
     "RepositorySource": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
     "RepositorySourceId": "xeldaralz",
     "RepositoryEntryKey": "24efcbf6520d02eaeaa4738d3697717036442cd110f4b4b9a09e7f71f6638468",
-    "RepositoryOriginalInternalName": "Mahjong.Plugin.Dalamud"
+    "RepositoryOriginalInternalName": "Mahjong.Plugin.Dalamud",
+    "RepositoryDownloadUrlValid": true
   },
   {
     "Author": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
@@ -5327,6 +5531,7 @@
     "RepositorySource": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
     "RepositorySourceId": "xeldaralz",
     "RepositoryEntryKey": "347fc8ff747275ccfb3b929ad5b2eb8c5566206031728ebe5cd2f1f45fa5695c",
-    "RepositoryOriginalInternalName": "PvpAutoLb"
+    "RepositoryOriginalInternalName": "PvpAutoLb",
+    "RepositoryDownloadUrlValid": true
   }
 ]
