@@ -38,7 +38,7 @@ jobs:
 
       - name: Generate AetherFeed summary with distribution URLs (PowerShell)
         run: |
-          .\Update-AetherFeedSummary.ps1 `
+          .\.github\scripts\Update-AetherFeedSummary.ps1 `
             -OutputPath "dist/${{ env.DISCOVERY_FILE }}" `
             -PreviousPath previous-aetherfeed-summary.json `
             -ChangesPath dist/aetherfeed-summary-changes.json

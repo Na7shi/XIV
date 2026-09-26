@@ -54,7 +54,8 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+$scriptDirectory = Split-Path -Parent $MyInvocation.MyCommand.Path
+$repoRoot = Split-Path -Parent (Split-Path -Parent $scriptDirectory)
 Set-Location $repoRoot
 
 if (-not (Test-Path -LiteralPath $SourcesPath)) {

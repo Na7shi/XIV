@@ -46,7 +46,7 @@ jobs:
 
       - name: Generate repository summary (PowerShell)
         run: |
-          .\Update-RepositorySummary.ps1 `
+          .\.github\scripts\Update-RepositorySummary.ps1 `
             -OutputPath "dist/${{ env.SUMMARY_FILE }}" `
             -PreviousPath previous-repository-summary.json `
             -ChangesPath dist/repository-summary-changes.json `
