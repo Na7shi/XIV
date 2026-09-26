@@ -1,0 +1,6 @@
+[
+    {
+        "InternalName": "DailyRoutines",
+        "Reason": "プラグイン側がSourceRepositoryを検証し、集約リポジトリからの起動を拒否するため"
+    }
+]

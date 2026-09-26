@@ -1,0 +1,113 @@
+name: Update Repository Summary
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 外部リポジトリへの追加を定期的に検知する。
+    - cron: '*/10 * * * *'
+  repository_dispatch:
+    types:
+      - workspace-deploy-succeeded
+
+concurrency:
+  group: xiv-repository-json
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  SUMMARY_FILE: repository-summary.json
+  FORK_SUMMARY_FILE: repository-summary-forks.json
+
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Prepare previous summaries
+        run: |
+          if (Test-Path "${{ env.SUMMARY_FILE }}") {
+            Copy-Item "${{ env.SUMMARY_FILE }}" previous-repository-summary.json -Force
+          } else {
+            '[]' | Set-Content previous-repository-summary.json -Encoding UTF8
+          }
+          if (Test-Path "${{ env.FORK_SUMMARY_FILE }}") {
+            Copy-Item "${{ env.FORK_SUMMARY_FILE }}" previous-repository-summary-forks.json -Force
+          } else {
+            '[]' | Set-Content previous-repository-summary-forks.json -Encoding UTF8
+          }
+        shell: pwsh
+
+      - name: Generate repository summary
+        run: |
+          .\Update-RepositorySummary.ps1 `
+            -OutputPath "dist/${{ env.SUMMARY_FILE }}" `
+            -PreviousPath previous-repository-summary.json `
+            -ChangesPath dist/repository-summary-changes.json `
+            -ForkSourcesPath repository-summary-fork-sources.json `
+            -ForkOutputPath "dist/${{ env.FORK_SUMMARY_FILE }}" `
+            -ForkPreviousPath previous-repository-summary-forks.json `
+            -ForkChangesPath dist/repository-summary-forks-changes.json
+        shell: pwsh
+
+      - name: Report detected changes
+        id: changes
+        run: |
+          $changes = Get-Content dist/repository-summary-changes.json -Raw | ConvertFrom-Json
+          $forkChanges = Get-Content dist/repository-summary-forks-changes.json -Raw | ConvertFrom-Json
+          "added=$(@($changes.Added).Count)" | Out-File $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "updated=$(@($changes.Updated).Count)" | Out-File $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "removed=$(@($changes.Removed).Count)" | Out-File $env:GITHUB_OUTPUT -Append -Encoding utf8
+
+          Add-Content $env:GITHUB_STEP_SUMMARY "## リポジトリまとめの差分"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 取得先: $($changes.SourceCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 登録対象エントリ: $($changes.EntryCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 取得したエントリ: $($changes.RawEntryCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 除外エントリ: $($changes.ExcludedEntryCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 配布URL不完全で非表示保持: $($changes.InvalidDownloadLinkEntryCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 同名InternalNameの重複: $($changes.DuplicateInternalNameCount) グループ"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 追加: $(@($changes.Added).Count) / 更新: $(@($changes.Updated).Count) / 削除: $(@($changes.Removed).Count)"
+          Add-Content $env:GITHUB_STEP_SUMMARY ""
+          Add-Content $env:GITHUB_STEP_SUMMARY "## フォーク側まとめの差分"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 取得先: $($forkChanges.SourceCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 登録対象エントリ: $($forkChanges.EntryCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 追加: $(@($forkChanges.Added).Count) / 更新: $(@($forkChanges.Updated).Count) / 削除: $(@($forkChanges.Removed).Count)"
+          if (@($changes.Added).Count -gt 0) {
+            Add-Content $env:GITHUB_STEP_SUMMARY ''
+            Add-Content $env:GITHUB_STEP_SUMMARY '### 追加されたプラグイン'
+            foreach ($entry in @($changes.Added)) {
+              Add-Content $env:GITHUB_STEP_SUMMARY "- $($entry.Name) (`$($entry.InternalName)`) — $($entry.RepositorySource)"
+            }
+            Write-Host "::notice title=Repository summary::$(@($changes.Added).Count) 件のプラグイン追加を検知しました"
+          }
+          if (@($forkChanges.Added).Count -gt 0) {
+            Add-Content $env:GITHUB_STEP_SUMMARY ''
+            Add-Content $env:GITHUB_STEP_SUMMARY '### フォーク側で追加されたプラグイン'
+            foreach ($entry in @($forkChanges.Added)) {
+              Add-Content $env:GITHUB_STEP_SUMMARY "- $($entry.Name) (`$($entry.InternalName)`) — $($entry.RepositorySource)"
+            }
+            Write-Host "::notice title=Fork repository summary::$(@($forkChanges.Added).Count) 件のプラグイン追加を検知しました"
+          }
+
+        shell: pwsh
+
+      - name: Deploy repository summary
+        run: |
+          Copy-Item "dist/${{ env.SUMMARY_FILE }}" "${{ env.SUMMARY_FILE }}" -Force
+          Copy-Item "dist/${{ env.FORK_SUMMARY_FILE }}" "${{ env.FORK_SUMMARY_FILE }}" -Force
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- "${{ env.SUMMARY_FILE }}" "${{ env.FORK_SUMMARY_FILE }}"
+          if (git diff --cached --quiet) {
+            Write-Host "リポジトリまとめに変更はありません。"
+          } else {
+            git commit -m "Update repository summary"
+            git push origin HEAD:main
+            if ($LASTEXITCODE -ne 0) { throw "リポジトリまとめの push に失敗しました" }
+          }
+        shell: pwsh

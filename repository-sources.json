@@ -1,0 +1,112 @@
+[
+    {
+        "Id": "ryonive-darkness",
+        "Name": "Dalamud Darkness Repo",
+        "Url": "https://raw.githubusercontent.com/ryonive/Dalamud-Darkness-Repo/main/ffxiv_custom_repo.json"
+    },
+    {
+        "Id": "niguangowo",
+        "Name": "NiGuangOwO",
+        "Url": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json"
+    },
+    {
+        "Id": "puni-ment",
+        "Name": "Puni.sh Ment",
+        "Url": "https://love.puni.sh/ment.json"
+    },
+    {
+        "Id": "puni-ice",
+        "Name": "Puni.sh Ice",
+        "Url": "https://puni.sh/api/repository/ice"
+    },
+    {
+        "Id": "aireil",
+        "Name": "Aireil",
+        "Url": "https://raw.githubusercontent.com/Aireil/MyDalamudPlugins/master/pluginmaster.json"
+    },
+    {
+        "Id": "unknownx7",
+        "Name": "UnknownX7",
+        "Url": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
+    },
+    {
+        "Id": "combat-reborn",
+        "Name": "Combat Reborn",
+        "Url": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
+    },
+    {
+        "Id": "haselnussbomber",
+        "Name": "Haselnussbomber",
+        "Url": "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json"
+    },
+    {
+        "Id": "iinact",
+        "Name": "IINACT",
+        "Url": "https://raw.githubusercontent.com/marzent/IINACT/main/repo.json"
+    },
+    {
+        "Id": "nightmarexiv-github",
+        "Name": "NightmareXIV",
+        "Url": "https://github.com/NightmareXIV/MyDalamudPlugins/raw/main/pluginmaster.json"
+    },
+    {
+        "Id": "nightmarexiv",
+        "Name": "NightmareXIV",
+        "Url": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
+    },
+    {
+        "Id": "puni-veyn",
+        "Name": "Puni.sh Veyn",
+        "Url": "https://puni.sh/api/repository/veyn"
+    },
+    {
+        "Id": "puni-kawaii",
+        "Name": "Puni.sh Kawaii",
+        "Url": "https://puni.sh/api/repository/kawaii"
+    },
+    {
+        "Id": "atmoomen",
+        "Name": "AtmoOmen",
+        "Url": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json"
+    },
+    {
+        "Id": "puni-erdelf",
+        "Name": "Puni.sh Erdelf",
+        "Url": "https://puni.sh/api/repository/erdelf"
+    },
+    {
+        "Id": "na7shi-xiv",
+        "Name": "Na7shi/XIV",
+        "Url": "https://raw.githubusercontent.com/Na7shi/XIV/main/pluginmaster.json"
+    },
+    {
+        "Id": "rioriopu",
+        "Name": "rioriopu",
+        "Url": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/repo.json"
+    },
+    {
+        "Id": "ohkannaduh",
+        "Name": "OhKannaDuh",
+        "Url": "https://raw.githubusercontent.com/OhKannaDuh/plugins/refs/heads/master/manifest.json"
+    },
+    {
+        "Id": "xeldaralz",
+        "Name": "XeldarAlz",
+        "Url": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
+    },
+    {
+        "Id": "puni-plugins",
+        "Name": "Puni.sh Plugins",
+        "Url": "https://puni.sh/api/plugins"
+    },
+    {
+        "Id": "puni-croizat",
+        "Name": "Puni.sh Croizat",
+        "Url": "https://puni.sh/api/repository/croizat"
+    },
+    {
+        "Id": "adrift",
+        "Name": "Adrift",
+        "Url": "https://repo.adrift.jp/pluginmaster.json"
+    }
+]

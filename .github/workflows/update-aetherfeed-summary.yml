@@ -1,0 +1,74 @@
+name: Update AetherFeed Summary
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub Actions の cron は UTC。6時間ごとに取得して大きな一覧を更新する。
+    - cron: '0 */6 * * *'
+
+concurrency:
+  group: xiv-aetherfeed-json
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  DISCOVERY_FILE: aetherfeed-summary.json
+
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Prepare previous summary
+        run: |
+          if (Test-Path "${{ env.DISCOVERY_FILE }}") {
+            Copy-Item "${{ env.DISCOVERY_FILE }}" previous-aetherfeed-summary.json -Force
+          } else {
+            '[]' | Set-Content previous-aetherfeed-summary.json -Encoding UTF8
+          }
+        shell: pwsh
+
+      - name: Generate AetherFeed summary with distribution URLs
+        run: |
+          .\Update-AetherFeedSummary.ps1 `
+            -OutputPath "dist/${{ env.DISCOVERY_FILE }}" `
+            -PreviousPath previous-aetherfeed-summary.json `
+            -ChangesPath dist/aetherfeed-summary-changes.json
+        shell: pwsh
+
+      - name: Report detected changes
+        run: |
+          $changes = Get-Content dist/aetherfeed-summary-changes.json -Raw | ConvertFrom-Json
+          Add-Content $env:GITHUB_STEP_SUMMARY "## AetherFeed まとめの差分"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- リポジトリグループ: $($changes.SourceCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- エントリ: $($changes.EntryCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 公式リポジトリとの重複除外: $($changes.ExcludedOfficialEntryCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 版の補正: $($changes.NormalizedVersionEntryCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 配布元マニフェスト取得: $($changes.SourceManifestFetchCount) 件 / 失敗 $($changes.SourceManifestFailureCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 配布URL取得済み: $($changes.DistributionUrlResolvedEntryCount) 件 / 未取得 $($changes.DistributionUrlUnresolvedEntryCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 追加: $(@($changes.Added).Count) / 更新: $(@($changes.Updated).Count) / 削除: $(@($changes.Removed).Count)"
+          if (@($changes.Added).Count -gt 0) {
+            Write-Host "::notice title=AetherFeed summary::$(@($changes.Added).Count) 件の追加を検知しました"
+          }
+        shell: pwsh
+
+      - name: Deploy AetherFeed summary
+        run: |
+          Copy-Item "dist/${{ env.DISCOVERY_FILE }}" "${{ env.DISCOVERY_FILE }}" -Force
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- "${{ env.DISCOVERY_FILE }}"
+          if (git diff --cached --quiet) {
+            Write-Host "AetherFeed まとめに変更はありません。"
+          } else {
+            git commit -m "Update AetherFeed summary"
+            git push origin HEAD:main
+            if ($LASTEXITCODE -ne 0) { throw "AetherFeed まとめの push に失敗しました" }
+          }
+        shell: pwsh
