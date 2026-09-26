@@ -47,10 +47,12 @@ jobs:
       - name: Generate repository summary (PowerShell)
         run: |
           .\.github\scripts\Update-RepositorySummary.ps1 `
+            -SourcesPath .github/config/repository-sources.json `
             -OutputPath "dist/${{ env.SUMMARY_FILE }}" `
             -PreviousPath previous-repository-summary.json `
             -ChangesPath dist/repository-summary-changes.json `
-            -ForkSourcesPath repository-summary-fork-sources.json `
+            -ExclusionsPath .github/config/repository-summary-exclusions.json `
+            -ForkSourcesPath .github/config/repository-summary-fork-sources.json `
             -ForkOutputPath "dist/${{ env.FORK_SUMMARY_FILE }}" `
             -ForkPreviousPath previous-repository-summary-forks.json `
             -ForkChangesPath dist/repository-summary-forks-changes.json

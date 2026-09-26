@@ -41,12 +41,12 @@
 #>
 [CmdletBinding()]
 param(
-    [string]$SourcesPath = 'repository-sources.json',
+    [string]$SourcesPath = '.github/config/repository-sources.json',
     [string]$OutputPath = 'repository-summary.json',
     [string]$PreviousPath = '',
     [string]$ChangesPath = 'repository-summary-changes.json',
-    [string]$ExclusionsPath = 'repository-summary-exclusions.json',
-    [string]$ForkSourcesPath = 'repository-summary-fork-sources.json',
+    [string]$ExclusionsPath = '.github/config/repository-summary-exclusions.json',
+    [string]$ForkSourcesPath = '.github/config/repository-summary-fork-sources.json',
     [string]$ForkOutputPath = '',
     [string]$ForkPreviousPath = '',
     [string]$ForkChangesPath = 'repository-summary-forks-changes.json',
