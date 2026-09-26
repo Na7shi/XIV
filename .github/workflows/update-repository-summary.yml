@@ -22,6 +22,7 @@ env:
 
 jobs:
   update:
+    name: Update repository summary (PowerShell)
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -29,7 +30,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Prepare previous summaries
+      - name: Prepare previous summaries (PowerShell)
         run: |
           if (Test-Path "${{ env.SUMMARY_FILE }}") {
             Copy-Item "${{ env.SUMMARY_FILE }}" previous-repository-summary.json -Force
@@ -43,7 +44,7 @@ jobs:
           }
         shell: pwsh
 
-      - name: Generate repository summary
+      - name: Generate repository summary (PowerShell)
         run: |
           .\Update-RepositorySummary.ps1 `
             -OutputPath "dist/${{ env.SUMMARY_FILE }}" `

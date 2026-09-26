@@ -7,7 +7,8 @@ on:
     - cron: '0 */6 * * *'
 
 concurrency:
-  group: xiv-aetherfeed-json
+  # repository-summary側と同じ配布リポジトリへpushするため、同時実行を直列化する。
+  group: xiv-repository-json
   cancel-in-progress: false
 
 permissions:
@@ -18,6 +19,7 @@ env:
 
 jobs:
   update:
+    name: Update AetherFeed summary (PowerShell)
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -25,7 +27,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Prepare previous summary
+      - name: Prepare previous summary (PowerShell)
         run: |
           if (Test-Path "${{ env.DISCOVERY_FILE }}") {
             Copy-Item "${{ env.DISCOVERY_FILE }}" previous-aetherfeed-summary.json -Force
@@ -34,7 +36,7 @@ jobs:
           }
         shell: pwsh
 
-      - name: Generate AetherFeed summary with distribution URLs
+      - name: Generate AetherFeed summary with distribution URLs (PowerShell)
         run: |
           .\Update-AetherFeedSummary.ps1 `
             -OutputPath "dist/${{ env.DISCOVERY_FILE }}" `
