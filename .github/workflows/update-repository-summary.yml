@@ -2,19 +2,23 @@ name: Update Repository Summary
 
 on:
   workflow_dispatch:
-  schedule:
-    # 外部リポジトリへの追加を10分ごとに検知する。
-    # 毎時00/10/20分などの混雑しやすい時刻を避けるため03分開始にする。
-    - cron: '3,13,23,33,43,53 * * * *'
+    inputs:
+      wait_seconds:
+        description: '次回実行までの待機秒数（通常は600）'
+        required: false
+        default: '600'
+        type: string
   repository_dispatch:
     types:
       - workspace-deploy-succeeded
 
 concurrency:
-  group: xiv-repository-json
-  cancel-in-progress: false
+  # 手動起動やデプロイ通知で二重ループを作らない。
+  group: xiv-repository-summary-loop
+  cancel-in-progress: true
 
 permissions:
+  actions: write
   contents: write
 
 env:
@@ -24,6 +28,10 @@ env:
 jobs:
   update:
     name: Update repository summary (PowerShell)
+    concurrency:
+      # AetherFeed側の更新と生成物へのpushだけを直列化する。
+      group: xiv-repository-json
+      cancel-in-progress: false
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -115,4 +123,40 @@ jobs:
             git push origin HEAD:main
             if ($LASTEXITCODE -ne 0) { throw "リポジトリまとめの push に失敗しました" }
           }
+        shell: pwsh
+
+  continue:
+    name: Restart repository summary after 10 minutes
+    needs: update
+    if: ${{ needs.update.result == 'success' }}
+    runs-on: windows-latest
+    steps:
+      - name: Wait after completion (PowerShell)
+        env:
+          REQUESTED_WAIT_SECONDS: ${{ inputs.wait_seconds }}
+        run: |
+          $waitSeconds = 600
+          if ($env:REQUESTED_WAIT_SECONDS -match '^\d+$' -and [int]$env:REQUESTED_WAIT_SECONDS -gt 0) {
+            $waitSeconds = [int]$env:REQUESTED_WAIT_SECONDS
+          }
+          Write-Host "次回のRepository Summaryまで $waitSeconds 秒待機します。"
+          Start-Sleep -Seconds $waitSeconds
+        shell: pwsh
+
+      - name: Dispatch next repository summary run (PowerShell)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          $headers = @{
+            Authorization = "Bearer $env:GITHUB_TOKEN"
+            Accept = 'application/vnd.github+json'
+            'X-GitHub-Api-Version' = '2022-11-28'
+          }
+          $body = @{ ref = 'main' } | ConvertTo-Json
+          Invoke-RestMethod `
+            -Method Post `
+            -Uri "https://api.github.com/repos/${{ github.repository }}/actions/workflows/update-repository-summary.yml/dispatches" `
+            -Headers $headers `
+            -ContentType 'application/json' `
+            -Body $body
         shell: pwsh

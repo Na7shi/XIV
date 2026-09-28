@@ -2,17 +2,20 @@ name: Update AetherFeed Summary
 
 on:
   workflow_dispatch:
-  schedule:
-    # GitHub Actions の cron は UTC。6時間ごとに取得して大きな一覧を更新する。
-    # 毎時00分の混雑を避け、各実行を07分にずらす。
-    - cron: '7 0,6,12,18 * * *'
+    inputs:
+      wait_seconds:
+        description: '次回実行までの待機秒数（通常は21400）'
+        required: false
+        default: '21400'
+        type: string
 
 concurrency:
-  # repository-summary側と同じ配布リポジトリへpushするため、同時実行を直列化する。
-  group: xiv-repository-json
-  cancel-in-progress: false
+  # 手動起動で二重ループを作らない。
+  group: xiv-aetherfeed-summary-loop
+  cancel-in-progress: true
 
 permissions:
+  actions: write
   contents: write
 
 env:
@@ -21,6 +24,10 @@ env:
 jobs:
   update:
     name: Update AetherFeed summary (PowerShell)
+    concurrency:
+      # Repository Summary側の更新と生成物へのpushだけを直列化する。
+      group: xiv-repository-json
+      cancel-in-progress: false
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -75,4 +82,41 @@ jobs:
             git push origin HEAD:main
             if ($LASTEXITCODE -ne 0) { throw "AetherFeed まとめの push に失敗しました" }
           }
+        shell: pwsh
+
+  continue:
+    name: Restart AetherFeed summary after approximately 6 hours
+    needs: update
+    if: ${{ needs.update.result == 'success' }}
+    runs-on: windows-latest
+    steps:
+      - name: Wait after completion (PowerShell)
+        env:
+          REQUESTED_WAIT_SECONDS: ${{ inputs.wait_seconds }}
+        run: |
+          # GitHub-hosted jobsは最大6時間のため、処理時間分の余裕を残す。
+          $waitSeconds = 21400
+          if ($env:REQUESTED_WAIT_SECONDS -match '^\d+$' -and [int]$env:REQUESTED_WAIT_SECONDS -gt 0) {
+            $waitSeconds = [int]$env:REQUESTED_WAIT_SECONDS
+          }
+          Write-Host "次回のAetherFeed Summaryまで $waitSeconds 秒待機します。"
+          Start-Sleep -Seconds $waitSeconds
+        shell: pwsh
+
+      - name: Dispatch next AetherFeed summary run (PowerShell)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          $headers = @{
+            Authorization = "Bearer $env:GITHUB_TOKEN"
+            Accept = 'application/vnd.github+json'
+            'X-GitHub-Api-Version' = '2022-11-28'
+          }
+          $body = @{ ref = 'main' } | ConvertTo-Json
+          Invoke-RestMethod `
+            -Method Post `
+            -Uri "https://api.github.com/repos/${{ github.repository }}/actions/workflows/update-aetherfeed-summary.yml/dispatches" `
+            -Headers $headers `
+            -ContentType 'application/json' `
+            -Body $body
         shell: pwsh
