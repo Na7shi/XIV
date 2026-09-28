@@ -3,8 +3,9 @@ name: Update Repository Summary
 on:
   workflow_dispatch:
   schedule:
-    # 外部リポジトリへの追加を定期的に検知する。
-    - cron: '*/10 * * * *'
+    # 外部リポジトリへの追加を10分ごとに検知する。
+    # 毎時00/10/20分などの混雑しやすい時刻を避けるため03分開始にする。
+    - cron: '3,13,23,33,43,53 * * * *'
   repository_dispatch:
     types:
       - workspace-deploy-succeeded

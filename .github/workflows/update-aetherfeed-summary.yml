@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     # GitHub Actions の cron は UTC。6時間ごとに取得して大きな一覧を更新する。
-    - cron: '0 */6 * * *'
+    # 毎時00分の混雑を避け、各実行を07分にずらす。
+    - cron: '7 0,6,12,18 * * *'
 
 concurrency:
   # repository-summary側と同じ配布リポジトリへpushするため、同時実行を直列化する。
