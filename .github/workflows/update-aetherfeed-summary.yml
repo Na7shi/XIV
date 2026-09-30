@@ -113,10 +113,70 @@ jobs:
             'X-GitHub-Api-Version' = '2022-11-28'
           }
           $body = @{ ref = 'main' } | ConvertTo-Json
-          Invoke-RestMethod `
-            -Method Post `
-            -Uri "https://api.github.com/repos/${{ github.repository }}/actions/workflows/update-aetherfeed-summary.yml/dispatches" `
-            -Headers $headers `
-            -ContentType 'application/json' `
-            -Body $body
+          $uri = "https://api.github.com/repos/${{ github.repository }}/actions/workflows/update-aetherfeed-summary.yml/dispatches"
+          $maxAttempts = 5
+          for ($attempt = 1; $attempt -le $maxAttempts; $attempt++) {
+            try {
+              Invoke-RestMethod `
+                -Method Post `
+                -Uri $uri `
+                -Headers $headers `
+                -ContentType 'application/json' `
+                -Body $body `
+                -TimeoutSec 60
+              Write-Host '次回のAetherFeed Summaryを起動しました。'
+              break
+            } catch {
+              if ($attempt -eq $maxAttempts) { throw }
+              $delay = [Math]::Min(120, 15 * [Math]::Pow(2, $attempt - 1))
+              Write-Warning "次回起動APIに失敗しました（$attempt/$maxAttempts）。${delay}秒後に再試行します: $($_.Exception.Message)"
+              Start-Sleep -Seconds $delay
+            }
+          }
+        shell: pwsh
+
+  recover:
+    name: Recover AetherFeed summary after failure
+    needs:
+      - update
+      - continue
+    if: ${{ always() && (needs.update.result == 'failure' || needs.continue.result == 'failure') }}
+    runs-on: windows-latest
+    steps:
+      - name: Wait before recovery (PowerShell)
+        run: |
+          Write-Host 'AetherFeed Summaryの失敗を検知しました。5分後に復旧起動します。'
+          Start-Sleep -Seconds 300
+        shell: pwsh
+
+      - name: Dispatch recovery run (PowerShell)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          $headers = @{
+            Authorization = "Bearer $env:GITHUB_TOKEN"
+            Accept = 'application/vnd.github+json'
+            'X-GitHub-Api-Version' = '2022-11-28'
+          }
+          $body = @{ ref = 'main' } | ConvertTo-Json
+          $uri = "https://api.github.com/repos/${{ github.repository }}/actions/workflows/update-aetherfeed-summary.yml/dispatches"
+          $maxAttempts = 5
+          for ($attempt = 1; $attempt -le $maxAttempts; $attempt++) {
+            try {
+              Invoke-RestMethod `
+                -Method Post `
+                -Uri $uri `
+                -Headers $headers `
+                -ContentType 'application/json' `
+                -Body $body `
+                -TimeoutSec 60
+              Write-Host 'AetherFeed Summaryの復旧起動を受け付けました。'
+              break
+            } catch {
+              if ($attempt -eq $maxAttempts) { throw }
+              $delay = [Math]::Min(120, 15 * [Math]::Pow(2, $attempt - 1))
+              Write-Warning "復旧起動APIに失敗しました（$attempt/$maxAttempts）。${delay}秒後に再試行します: $($_.Exception.Message)"
+              Start-Sleep -Seconds $delay
+            }
+          }
         shell: pwsh
