@@ -1133,10 +1133,10 @@
       "OCH"
     ],
     "DalamudApiLevel": 15,
-    "AssemblyVersion": "4.2.0.16",
+    "AssemblyVersion": "4.2.0.17",
     "DownloadLinkInstall": "https://github.com/OhKannaDuh/BOCCHI/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/OhKannaDuh/BOCCHI/releases/latest/download/latest.zip",
-    "LastUpdated": 1790505457618,
+    "LastUpdated": 1790895957194,
     "OriginalAuthor": "Faye, Kage",
     "RepositorySourceLabel": "GitHub: OhKannaDuh/plugins",
     "RepositoryDisplayAuthor": "Faye, Kage [GitHub: OhKannaDuh/plugins]",
