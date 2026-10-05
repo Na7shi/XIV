@@ -3157,8 +3157,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "",
-    "TestingAssemblyVersion": "7.5.6.16",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.6.16/install/testing.zip",
+    "TestingAssemblyVersion": "7.5.6.17",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.6.17/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/30",
     "ImageUrls": [
@@ -3171,7 +3171,7 @@
     "RepositoryDisplayAuthor": "veyn, xan_0 [Source: Puni.sh Veyn]",
     "RepositorySource": "https://puni.sh/api/repository/veyn",
     "RepositorySourceId": "puni-veyn",
-    "RepositoryEntryKey": "83445673fa3b4ac4b592f373ff746837946d2e5be32bf6a287f98a1027824edf",
+    "RepositoryEntryKey": "1c13432198e6b7cee5a1803688de6d2ef8216bae1f1a9299f54a508695ec5481",
     "RepositoryOriginalInternalName": "BossMod",
     "RepositoryDownloadUrlValid": true
   },
