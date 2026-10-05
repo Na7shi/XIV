@@ -2128,7 +2128,7 @@
     "Author": "Ice [Source: Puni.sh Ice]",
     "Name": "Chilled Leves",
     "Punchline": "I heard you like your leves on the rocks.",
-    "Description": "A leve helper that lets you select which ones you want to do, and help turn them in for you. YOU NEED NAVMESH INSTALLED AS AN FYI.",
+    "Description": "The leve plugin that nobody wanted to make. Will display what leves you need to complete, as well as help automate them for your heart desires (not required though)",
     "Tags": [
       "Leves",
       "Crafters",
