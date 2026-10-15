@@ -132,6 +132,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Wait after completion (PowerShell)
+        timeout-minutes: 25
         env:
           REQUESTED_WAIT_SECONDS: ${{ inputs.wait_seconds }}
         run: |

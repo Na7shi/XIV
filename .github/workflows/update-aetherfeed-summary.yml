@@ -91,11 +91,12 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Wait after completion (PowerShell)
+        timeout-minutes: 330
         env:
           REQUESTED_WAIT_SECONDS: ${{ inputs.wait_seconds }}
         run: |
-          # GitHub-hosted jobsは最大6時間のため、処理時間分の余裕を残す。
-          $waitSeconds = 21400
+          # GitHub-hosted jobsの6時間上限に余裕を残す。
+          $waitSeconds = 19800
           if ($env:REQUESTED_WAIT_SECONDS -match '^\d+$' -and [int]$env:REQUESTED_WAIT_SECONDS -gt 0) {
             $waitSeconds = [int]$env:REQUESTED_WAIT_SECONDS
           }

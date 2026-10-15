@@ -1,0 +1,60 @@
+name: Start Summary Updates
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: '起動する処理'
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - repository
+          - aetherfeed
+      wait_seconds:
+        description: '起動後の次回実行までの待機秒数（通常値を使う場合は空欄）'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  actions: write
+
+jobs:
+  dispatch:
+    name: Start selected summary workflow
+    runs-on: windows-latest
+    steps:
+      - name: Dispatch summary workflow(s) (PowerShell)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TARGET: ${{ inputs.target }}
+          WAIT_SECONDS: ${{ inputs.wait_seconds }}
+        run: |
+          $headers = @{
+            Authorization = "Bearer $env:GITHUB_TOKEN"
+            Accept = 'application/vnd.github+json'
+            'X-GitHub-Api-Version' = '2022-11-28'
+          }
+          $workflows = switch ($env:TARGET) {
+            'repository' { @('update-repository-summary.yml') }
+            'aetherfeed' { @('update-aetherfeed-summary.yml') }
+            default { @('update-repository-summary.yml', 'update-aetherfeed-summary.yml') }
+          }
+          $inputs = @{}
+          if ($env:WAIT_SECONDS -match '^\d+$' -and [int]$env:WAIT_SECONDS -gt 0) {
+            $inputs.wait_seconds = $env:WAIT_SECONDS
+          }
+          foreach ($workflow in $workflows) {
+            $payload = @{ ref = 'main'; inputs = $inputs } | ConvertTo-Json -Depth 4
+            Invoke-RestMethod `
+              -Method Post `
+              -Uri "https://api.github.com/repos/${{ github.repository }}/actions/workflows/$workflow/dispatches" `
+              -Headers $headers `
+              -ContentType 'application/json' `
+              -Body $payload `
+              -TimeoutSec 60
+            Write-Host "起動要求を送信しました: $workflow"
+          }
+        shell: pwsh
