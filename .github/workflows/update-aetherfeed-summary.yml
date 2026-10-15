@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       wait_seconds:
-        description: '次回実行までの待機秒数（通常は21400）'
+        description: '次回実行までの待機秒数（通常は19800）'
         required: false
-        default: '21400'
+        default: '19800'
         type: string
 
 concurrency:
