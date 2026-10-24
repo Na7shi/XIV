@@ -2284,6 +2284,37 @@
     "RepositoryDownloadUrlValid": true
   },
   {
+    "Author": "kawaii [Source: Puni.sh Kawaii]",
+    "Name": "MeowNET",
+    "Punchline": "Multiboxing and IPC passthru, powered by cats.",
+    "Description": "MeowNET operates as a virtual party/lobby system to orchestrate many Dalamud plugins together and provide a platform for multiboxers.",
+    "Tags": [
+      "multibox",
+      "network",
+      "automation"
+    ],
+    "InternalName": "MeowNET",
+    "RepoUrl": "https://github.com/PunishXIV/MeowNET",
+    "LastUpdate": 1792808876,
+    "TestingAssemblyVersion": "0.0.0.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/183/MeowNET/versions/0.0.0.1/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IsTestingExclusive": true,
+    "AssemblyVersion": "0.0.0.1",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "",
+    "OriginalAuthor": "kawaii",
+    "RepositorySourceLabel": "Source: Puni.sh Kawaii",
+    "RepositoryDisplayAuthor": "kawaii [Source: Puni.sh Kawaii]",
+    "RepositorySource": "https://puni.sh/api/repository/kawaii",
+    "RepositorySourceId": "puni-kawaii",
+    "RepositoryEntryKey": "b24189364f2c39fdeb104217d7e32a5594da4cf2573405b4193f546d4c9e33d3",
+    "RepositoryOriginalInternalName": "MeowNET",
+    "RepositoryDownloadUrlValid": false,
+    "IsHide": true
+  },
+  {
     "Author": "Taurenkey, kawaii, NightmareXIV [Source: Puni.sh Ment]",
     "Name": "Artisan",
     "Punchline": "A 'simple' crafting plugin.",
