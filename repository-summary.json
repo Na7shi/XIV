@@ -2042,8 +2042,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "## What's Changed\r\n* Knightshopper Loop Action by @erdelf in https://github.com/erdelf/AutoDuty/pull/609\r\n\r\n\r\n**Full Changelog**: https://github.com/erdelf/AutoDuty/compare/0.0.0.389...0.0.0.390",
-    "TestingAssemblyVersion": "0.0.0.392",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.392/install/testing.zip",
+    "TestingAssemblyVersion": "0.0.0.393",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.393/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/54",
     "ImageUrls": [
@@ -2058,7 +2058,7 @@
     "RepositoryDisplayAuthor": "erdelf, Herculezz [Source: Puni.sh Erdelf]",
     "RepositorySource": "https://puni.sh/api/repository/erdelf",
     "RepositorySourceId": "puni-erdelf",
-    "RepositoryEntryKey": "77abb2f9b03e456803440aa06646e4c6eef3c7cd82f29bda3f4a8ad296d6d888",
+    "RepositoryEntryKey": "42919b78aa0d650f64a220a04667cc2a78cdfcaca22131af160d1fb9d8213f44",
     "RepositoryOriginalInternalName": "AutoDuty",
     "RepositoryDownloadUrlValid": true
   },
