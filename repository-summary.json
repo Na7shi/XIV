@@ -3777,6 +3777,42 @@
   },
   {
     "Author": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
+    "Name": "Auto Keybound Brawler",
+    "InternalName": "AutoKeyboundBrawler",
+    "AssemblyVersion": "1.0.0.0",
+    "TestingAssemblyVersion": "1.0.0.0",
+    "Description": "Plays Keybound Brawler's typing for you: reads the phrases above the enemies, types the most urgent one into the input bar and presses Enter, with adjustable speed and a humanizer.",
+    "Punchline": "Keybound Brawler, typed for you.",
+    "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoKeyboundBrawler",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "keybound brawler",
+      "gold saucer",
+      "typing",
+      "automation"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "IconUrl": "https://raw.githubusercontent.com/XeldarAlz/FFXIV-AutoKeyboundBrawler/master/AutoKeyboundBrawler/Images/Icon.png",
+    "DownloadLinkInstall": "https://github.com/XeldarAlz/FFXIV-AutoKeyboundBrawler/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/XeldarAlz/FFXIV-AutoKeyboundBrawler/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoKeyboundBrawler/releases/latest/download/latest.zip",
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "LastUpdate": "1793192508",
+    "OriginalAuthor": "XeldarAlz",
+    "RepositorySourceLabel": "GitHub: XeldarAlz/DalamudPlugins",
+    "RepositoryDisplayAuthor": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
+    "RepositorySource": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+    "RepositorySourceId": "xeldaralz",
+    "RepositoryEntryKey": "30c41f08aa508488c48e4fee5bbd70abeff64a2e4dac59fb624e88ce6909f67a",
+    "RepositoryOriginalInternalName": "AutoKeyboundBrawler",
+    "RepositoryDownloadUrlValid": true
+  },
+  {
+    "Author": "XeldarAlz [GitHub: XeldarAlz/DalamudPlugins]",
     "Name": "Auto PVP Series Grind",
     "InternalName": "AutoPvpSeriesGrind",
     "AssemblyVersion": "2.13.1.0",
