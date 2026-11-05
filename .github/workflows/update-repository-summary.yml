@@ -79,6 +79,10 @@ jobs:
 
           Add-Content $env:GITHUB_STEP_SUMMARY "## リポジトリまとめの差分"
           Add-Content $env:GITHUB_STEP_SUMMARY "- 取得先: $($changes.SourceCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 404でスキップ: $($changes.SkippedSourceCount) 件"
+          foreach ($source in @($changes.SkippedSources)) {
+            Add-Content $env:GITHUB_STEP_SUMMARY "  - $($source.Name): $($source.Url)"
+          }
           Add-Content $env:GITHUB_STEP_SUMMARY "- 登録対象エントリ: $($changes.EntryCount) 件"
           Add-Content $env:GITHUB_STEP_SUMMARY "- 取得したエントリ: $($changes.RawEntryCount) 件"
           Add-Content $env:GITHUB_STEP_SUMMARY "- 除外エントリ: $($changes.ExcludedEntryCount) 件"
@@ -88,6 +92,10 @@ jobs:
           Add-Content $env:GITHUB_STEP_SUMMARY ""
           Add-Content $env:GITHUB_STEP_SUMMARY "## フォーク側まとめの差分"
           Add-Content $env:GITHUB_STEP_SUMMARY "- 取得先: $($forkChanges.SourceCount) 件"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- 404でスキップ: $($forkChanges.SkippedSourceCount) 件"
+          foreach ($source in @($forkChanges.SkippedSources)) {
+            Add-Content $env:GITHUB_STEP_SUMMARY "  - $($source.Name): $($source.Url)"
+          }
           Add-Content $env:GITHUB_STEP_SUMMARY "- 登録対象エントリ: $($forkChanges.EntryCount) 件"
           Add-Content $env:GITHUB_STEP_SUMMARY "- 追加: $(@($forkChanges.Added).Count) / 更新: $(@($forkChanges.Updated).Count) / 削除: $(@($forkChanges.Removed).Count)"
           if (@($changes.Added).Count -gt 0) {

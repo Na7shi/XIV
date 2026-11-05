@@ -153,6 +153,21 @@ function Get-SourceDocument([string]$Url, [int]$Attempts) {
             }
             return ($response.Content | ConvertFrom-Json)
         } catch {
+            # リポジトリ削除・URL消失を示す404は再試行しても直らないため、
+            # この取得先だけをスキップして残りの取得を継続する。
+            $statusCode = $null
+            $httpResponse = $_.Exception.Response
+            if ($null -eq $httpResponse -and $_.Exception.InnerException) {
+                $httpResponse = $_.Exception.InnerException.Response
+            }
+            if ($httpResponse -and $httpResponse.PSObject.Properties['StatusCode']) {
+                try { $statusCode = [int]$httpResponse.StatusCode } catch { }
+            }
+            if ($statusCode -eq 404) {
+                Write-Warning "HTTP 404 の取得先をスキップします: $Url"
+                return $null
+            }
+
             $lastError = $_.Exception.Message
             if ($attempt -lt $Attempts) {
                 Start-Sleep -Seconds ([Math]::Min(5, $attempt * 2))
@@ -245,6 +260,19 @@ $sourceStats = @()
 foreach ($source in $sources) {
     Write-Host "取得中: $($source.Name) <$($source.Url)>" -ForegroundColor Cyan
     $document = Get-SourceDocument $source.Url $RetryCount
+    if ($null -eq $document) {
+        $sourceStats += [pscustomobject]@{
+            Id = $source.Id
+            Name = $source.Name
+            Url = $source.Url
+            Count = 0
+            IsFork = $source.IsFork
+            Skipped = $true
+            SkipReason = 'HTTP 404'
+        }
+        continue
+    }
+
     $entries = @(Get-PluginEntries $document)
     $validCount = 0
 
@@ -315,6 +343,8 @@ foreach ($source in $sources) {
         Url = $source.Url
         Count = $validCount
         IsFork = $source.IsFork
+        Skipped = $false
+        SkipReason = $null
     }
     Write-Host "  $validCount 件" -ForegroundColor Gray
 }
@@ -386,7 +416,9 @@ function Write-SummaryCollection {
     $changes = [ordered]@{
         GeneratedAt = [DateTime]::UtcNow.ToString('o')
         Collection = $CollectionName
-        SourceCount = @($CollectionSources).Count
+        SourceCount = @($CollectionSources | Where-Object { -not $_.Skipped }).Count
+        SkippedSourceCount = @($CollectionSources | Where-Object Skipped).Count
+        SkippedSources = @($CollectionSources | Where-Object Skipped)
         EntryCount = $sortedEntries.Count
         RawEntryCount = $CollectionRawEntryCount
         InvalidDownloadLinkEntryCount = @($CollectionInvalidEntries).Count
