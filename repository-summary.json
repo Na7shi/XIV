@@ -2178,6 +2178,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "Full public release WOOOOO",
+    "IconUrl": "https://puni.sh/api/plugins/icon/138",
     "OriginalAuthor": "Ice",
     "RepositorySourceLabel": "Source: Puni.sh Ice",
     "RepositoryDisplayAuthor": "Ice [Source: Puni.sh Ice]",
